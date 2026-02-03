@@ -1,0 +1,794 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../api_statement.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"맑은 고딕", monospace;
+	mso-font-charset:129;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../api_statement.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#467886" vlink="#96607D">
+
+<table border=0 cellpadding=0 cellspacing=0 width=866 style='border-collapse:
+ collapse;table-layout:fixed;width:649pt'>
+ <col width=252 style='mso-width-source:userset;mso-width-alt:9216;width:189pt'>
+ <col width=251 style='mso-width-source:userset;mso-width-alt:9179;width:188pt'>
+ <col width=107 style='mso-width-source:userset;mso-width-alt:3913;width:80pt'>
+ <col width=256 style='mso-width-source:userset;mso-width-alt:9362;width:192pt'>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 width=252 style='height:13.5pt;width:189pt'>▶메타정보</td>
+  <td width=251 style='width:188pt'></td>
+  <td width=107 style='width:80pt'></td>
+  <td width=256 style='width:192pt'></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl66 width=252 style='height:25.5pt;width:189pt'>공공정보명</td>
+  <td class=xl67 width=251 style='border-left:none;width:188pt'>교통</td>
+  <td class=xl66 width=107 style='border-left:none;width:80pt'>서비스명</td>
+  <td class=xl67 width=256 style='border-left:none;width:192pt'>서울시 교통공사 지하철역
+  편의시설위치정보 수유실 현황</td>
+ </tr>
+ <tr height=68 style='mso-height-source:userset;height:51.0pt'>
+  <td height=68 class=xl66 width=252 style='height:51.0pt;border-top:none;
+  width:189pt'>서비스설명</td>
+  <td colspan=3 class=xl68 width=614 style='border-right:.5pt solid black;
+  border-left:none;width:460pt'>서울교통공사 편의시설위치정보_수유실은 서울지하철 역사 내 수유실 시설 위치를
+  제공하며, 각 시설의 설치 위치, 운영 여부, 상세 설명 등의 항목을 포함합니다. 해당 정보는 역사 내 편의시설 접근성 향상, 안내 시스템
+  연계 등에 활용될 수 있으며, 수시로 갱신되는 데이터를 Rest API 방식으로 제공합니다. 데이터는 매일 또는 수시로 갱신됩니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>분류체계</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>교통&gt;대중교통</td>
+  <td class=xl66 width=107 style='border-top:none;border-left:none;width:80pt'>원본시스템</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>서울교통공사</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>태그</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>서울
+  지하철, 지하철 편의시설, 수유실</td>
+  <td class=xl66 width=107 style='border-top:none;border-left:none;width:80pt'>저작권자명</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>서울교통공사</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>제공기관</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>서울
+  교통공사</td>
+  <td class=xl66 width=107 style='border-top:none;border-left:none;width:80pt'>저작권자연락처</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>02-6311-9344</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>제공부서</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>스마트정보처</td>
+  <td class=xl66 width=107 style='border-top:none;border-left:none;width:80pt'>제3저작권자</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>없음</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>담당자명</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>최선아</td>
+  <td class=xl66 width=107 style='border-top:none;border-left:none;width:80pt'>원본형태</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>DB</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>담당자연락처</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>02-6311-9356</td>
+  <td class=xl66 width=107 style='border-top:none;border-left:none;width:80pt'>적재주기</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>실시간</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>생성기준일</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>2025.09.30</td>
+  <td class=xl66 width=107 style='border-top:none;border-left:none;width:80pt'>최종수정일</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>2025.10.17</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>데이터 공개일자</td>
+  <td colspan=3 class=xl68 width=614 style='border-right:.5pt solid black;
+  border-left:none;width:460pt'>2025.10.17</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td rowspan=2 height=36 class=xl71 width=252 style='border-bottom:.5pt solid black;
+  height:27.0pt;border-top:none;width:189pt'>이용허락조건</td>
+  <td colspan=3 class=xl73 width=614 style='border-right:.5pt solid black;
+  border-left:none;width:460pt'>공공누리 1유형</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=3 height=18 class=xl76 width=614 style='border-right:.5pt solid black;
+  height:13.5pt;border-left:none;width:460pt'>출처표시 (상업적 이용 및 변경 가능)</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=4 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 style='height:13.5pt'>▶요청인자</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;width:189pt'>변수</td>
+  <td class=xl66 width=251 style='border-left:none;width:188pt'>타입</td>
+  <td class=xl66 width=107 style='border-left:none;width:80pt'>변수명</td>
+  <td class=xl66 width=256 style='border-left:none;width:192pt'>값설명</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>KEY</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>STRING(필수)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>인증키</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>OPENAPI에서
+  발급된 인증키</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl67 width=252 style='height:25.5pt;border-top:none;
+  width:189pt'>TYPE</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>STRING(필수)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>요청파일
+  타입</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>xml
+  : xml, xml파일 : xmlf, 엑셀파일 : xls, json파일 : json</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>SERVICE</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>STRING(필수)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>서비스명</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>getFcNrsrm</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>START_INDEX</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>INTEGER(필수)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>요청시작위치</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>정수
+  입력</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>END_INDEX</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>INTEGER(필수)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>요청종료위치</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>정수
+  입력</td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td height=51 class=xl67 width=252 style='height:38.25pt;border-top:none;
+  width:189pt'>selectFields</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>STRING(선택)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>출력
+  선택항목</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>옵션
+  응답 항목(항목 구분: 0) 중 출력을 원하는 항목을 항목명(영문)으로 쉼표로 연결, 값 없는 경우 전체 항목 조회</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>lineNm</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>STRING(선택)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>호선명</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>지하철
+  호선 검색어(검색기준: 포함)</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>stnCd</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>STRING(선택)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>역코드</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>역코드(검색기준:
+  일치)</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>stnNm</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>STRING(선택)</td>
+  <td class=xl67 width=107 style='border-top:none;border-left:none;width:80pt'>역명</td>
+  <td class=xl67 width=256 style='border-top:none;border-left:none;width:192pt'>지하철
+  역명 검색어(검색기준: 포함)</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=4 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 style='height:13.5pt'>▶출력값</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;width:189pt'>순번</td>
+  <td class=xl66 width=251 style='border-left:none;width:188pt'>출력명</td>
+  <td colspan=2 class=xl80 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt'>출력설명</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>2</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>lineNm</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>호선명</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>3</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>stnCd</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>역코드</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>4</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>stnNm</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>역명</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>5</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>stnNo</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>역번호</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>6</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>fcltNm</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>시설명</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>7</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>crtrYmd</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>기준일자</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>8</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>dtlPstn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>상세위치</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>9</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>fcar</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>시설면적</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>10</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>fcltSeNm</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>시설구분명</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>11</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>gateInoutSe</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>게이트내외구분</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>12</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>cusarThrghSeNm</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>고객안전실경유구분명</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>13</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>nrsrmUtztnMth</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>수유실이용방식</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>14</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>stllAcsYn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>유모차접근여부</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>15</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>doorItphnEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>출입문인터폰유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>16</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>itphnEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>인터폰유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>17</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>nrspcLockEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>수유공간잠금유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>18</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>vstcdEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>방문증유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>19</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>hnstzYn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>손소독제여부</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>20</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>dprSwchbrdCnt</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>기저귀교환대수</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>21</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>dprBoxEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>기저귀수거함유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>22</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>nrspttEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>수유용칸막이유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>23</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>spsofaEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>1인용소파유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>24</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>mpsofaEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>다인용소파유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>25</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>tableEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>테이블유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>26</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>wshstndEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>세면대유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>27</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>trmmtEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>온도계유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>28</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>hgmtEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>습도계유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>29</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>wthtEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>온수기유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>30</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>rfgrEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>냉장고유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>31</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>mwovenEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>전자레인지유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>32</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>chlhtrEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>냉난방기유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>33</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>acEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>에어컨유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>34</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>fanEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>선풍기유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>35</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>htrEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>히터유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>36</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>acnrEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>공기청정기유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>37</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>dspdprEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>일회용기저귀패드유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>38</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>tsEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>각티슈유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>39</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>ptlEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>페이퍼타월유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>40</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>safiEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>유아용살균소독제유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>41</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>lsEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>물비누유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>42</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>chwpEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>냉온정수기유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>43</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>infntBedEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>유아침대유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>44</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>nrsstlEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>수유용발받침대유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>45</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>nrsplwEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>수유쿠션유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>46</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>nrslgtEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>수유등유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>47</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>bmbEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>유아모빌유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>48</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>mwovenosEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>렌지받침대유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>49</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>portEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>포트유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>50</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>drtbEn</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>화장대유무</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>51</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>sofaCnt</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>소파수</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>52</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>infntBedCnt</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>유아침대수</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>53</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>grndUdgdSe</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>지상지하구분</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>54</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>stnFlr</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>역층</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>55</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>exitNo</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>출구번호</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>56</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>utztnHr</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>이용시간</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl79 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>57</td>
+  <td class=xl67 width=251 style='border-top:none;border-left:none;width:188pt'>operInstTelno</td>
+  <td colspan=2 class=xl68 width=363 style='border-right:.5pt solid black;
+  border-left:none;width:272pt' '>운영기관전화번호</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=4 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 style='height:13.5pt'>▶샘플URL</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl66 width=252 style='height:13.5pt;width:189pt'>샘플명</td>
+  <td colspan=3 class=xl80 width=614 style='border-right:.5pt solid black;
+  border-left:none;width:460pt'>샘플URL</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl67 width=252 style='height:13.5pt;border-top:none;
+  width:189pt'>서울시 편의시설위치정보 수유실 현황</td>
+  <td colspan=3 class=xl68 width=614 style='border-right:.5pt solid black;
+  border-left:none;width:460pt'>http://openapi.seoul.go.kr:8088/sample/xml/getFcNrsrm/1/5/</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=4 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 style='height:13.5pt'>▶에러 및 정보메세지</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl68 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>INFO-000 : 정상 처리되었습니다</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-300 : 필수 값이 누락되어 있습니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청인자를 참고 하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>INFO-100 : 인증키가 유효하지 않습니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>인증키가 없는 경우, 열린 데이터 광장 홈페이지에서 인증키를 신청하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-301 : 파일타입 값이 누락 혹은 유효하지 않습니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청인자 중 TYPE을 확인하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-310 : 해당하는 서비스를 찾을 수 없습니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청인자 중 SERVICE를 확인하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-331 : 요청시작위치 값을 확인하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청인자 중 START_INDEX를 확인하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-332 : 요청종료위치 값을 확인하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청인자 중 END_INDEX를 확인하십시오.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-333 : 요청위치 값의 타입이 유효하지 않습니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청위치 값은 정수를 입력하세요.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-334 : 요청종료위치 보다 요청시작위치가 더 큽니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청시작조회건수는 정수를 입력하세요.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-335 : 샘플데이터(샘플키:sample) 는 한번에 최대 5건을 넘을 수
+  없습니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청시작위치와 요청종료위치 값은 1 ~ 5 사이만 가능합니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-336 : 데이터요청은 한번에 최대 1000건을 넘을 수 없습니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>요청종료위치에서 요청시작위치를 뺀 값이 1000을 넘지 않도록 수정하세요.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-500 : 서버 오류입니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>지속적으로 발생시 열린 데이터 광장으로 문의(Q&amp;A) 바랍니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-600 : 데이터베이스 연결 오류입니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>지속적으로 발생시 열린 데이터 광장으로 문의(Q&amp;A) 바랍니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl73 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>ERROR-601 : SQL 문장 오류 입니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl76 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>지속적으로 발생시 열린 데이터 광장으로 문의(Q&amp;A) 바랍니다.</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td colspan=4 height=18 class=xl68 width=866 style='border-right:.5pt solid black;
+  height:13.5pt;width:649pt'>INFO-200 : 해당하는 데이터가 없습니다.</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=252 style='width:189pt'></td>
+  <td width=251 style='width:188pt'></td>
+  <td width=107 style='width:80pt'></td>
+  <td width=256 style='width:192pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

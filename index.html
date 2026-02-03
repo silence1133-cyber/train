@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지하철 수유실 정보</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Malgun Gothic', 'Segoe UI', sans-serif;
+            background: #0f172a;
+            min-height: 100vh;
+            padding: 20px;
+            color: #f1f5f9;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+        .header h1 { font-size: 1.75em; margin-bottom: 6px; color: #ffffff; font-weight: 600; }
+        .header p { font-size: 0.95em; color: #cbd5e1; }
+
+        /* 오디오변환기 스타일 테마: 다크 배경 + 틸/시안 악센트 */
+        .loading-wrap {
+            text-align: center;
+            padding: 40px;
+            color: #cbd5e1;
+            font-size: 1.05em;
+        }
+        .error-wrap {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fecaca;
+            padding: 14px 18px;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            border: 1px solid rgba(239, 68, 68, 0.4);
+        }
+        .api-status {
+            display: none !important;
+        }
+
+        /* Accordion */
+        .accordion-wrap {
+            background: #1e293b;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #334155;
+        }
+        .accordion-item {
+            border-bottom: 1px solid #334155;
+        }
+        .accordion-item:last-child { border-bottom: none; }
+        .accordion-header {
+            width: 100%;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1e293b;
+            border: none;
+            color: #ffffff;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: left;
+            transition: background 0.2s;
+        }
+        .accordion-header:hover {
+            background: #334155;
+        }
+        .accordion-header .line-title { flex: 1; }
+        .accordion-header .line-count {
+            font-size: 0.85em;
+            color: #94a3b8;
+            font-weight: 500;
+            margin-right: 12px;
+        }
+        .accordion-header .chevron {
+            width: 20px;
+            height: 20px;
+            color: #0ea5e9;
+            transition: transform 0.25s ease;
+        }
+        .accordion-item.open .accordion-header .chevron {
+            transform: rotate(180deg);
+        }
+        .accordion-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: #0f172a;
+        }
+        .accordion-item.open .accordion-body {
+            max-height: 2000px;
+        }
+        .accordion-body table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .accordion-body th {
+            padding: 10px 16px;
+            text-align: left;
+            font-size: 0.85em;
+            color: #94a3b8;
+            font-weight: 600;
+            border-bottom: 1px solid #334155;
+        }
+        .accordion-body td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #1e293b;
+            font-size: 0.95em;
+            color: #f1f5f9;
+        }
+        .accordion-body tbody tr:hover {
+            background: #1e293b;
+        }
+        .accordion-body .stn-cell a {
+            color: #38bdf8;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .accordion-body .stn-cell a:hover { text-decoration: underline; }
+        .loc-btn {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #0ea5e9;
+            color: #0f172a;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .loc-btn:hover { background: #38bdf8; color: #0f172a; }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 23, 42, 0.85);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .modal-overlay.show { display: flex; }
+        .modal-box {
+            background: #1e293b;
+            border-radius: 16px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 90vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+            border: 1px solid #334155;
+        }
+        .modal-header {
+            padding: 20px 24px;
+            background: #0ea5e9;
+            color: #0f172a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-header h2 { font-size: 1.25em; font-weight: 600; }
+        .modal-close {
+            background: rgba(15, 23, 42, 0.2);
+            border: none;
+            color: #0f172a;
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2em;
+            line-height: 1;
+        }
+        .modal-close:hover { background: rgba(15, 23, 42, 0.35); }
+        .modal-body {
+            padding: 24px;
+            overflow-y: auto;
+            color: #f1f5f9;
+        }
+        .modal-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #334155;
+        }
+        .modal-image.missing { min-height: 120px; background: #0f172a; display: flex; align-items: center; justify-content: center; color: #94a3b8; }
+        .detail-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .detail-table th {
+            background: #0f172a;
+            padding: 10px 12px;
+            text-align: left;
+            width: 160px;
+            color: #94a3b8;
+            font-weight: 600;
+        }
+        .detail-table td { padding: 10px 12px; border-bottom: 1px solid #334155; color: #f1f5f9; }
+        .no-detail { color: #94a3b8; padding: 16px 0; }
+        @media (max-width: 768px) {
+            .accordion-body th { width: auto; }
+            .detail-table th { width: 120px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>지하철 수유실 정보</h1>
+            <p>역명을 클릭하거나 위치보기를 누르면 자세히 볼 수 있습니다.</p>
+        </div>
+
+        <div id="loading" class="loading-wrap">역 목록과 API 데이터를 불러오는 중…</div>
+        <div id="error" class="error-wrap" style="display:none;"></div>
+        <div id="apiStatus" class="api-status" style="display:none;"></div>
+        <div id="tableWrap" class="accordion-wrap" style="display:none;" role="region" aria-label="호선별 수유실 목록">
+            <div id="accordionBody"></div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h2 id="modalTitle">자세히 보기</h2>
+                <button type="button" class="modal-close" id="modalClose" aria-label="닫기">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-wrap">
+                    <img id="modalImg" class="modal-image" src="" alt="역 편의시설 안내도" onerror="this.classList.add('missing'); this.alt='이미지 없음'; this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div id="modalImgPlaceholder" class="modal-image missing" style="display:none;">이미지 없음</div>
+                </div>
+                <div id="modalDetail"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 수유실 데이터: api.info-zip.kr/seoulapi 가 서울 API를 대신 호출 후 결과 반환. 브라우저에 API 키 미노출.
+        // 서버 응답 형식: 서울 API와 동일한 JSON (response.body.items.item 배열, response.body.totalCount 등).
+        var PROXY_URL = 'https://api.info-zip.kr/seoulapi';
+        var IMAGE_DIR = 'station_images';
+
+        let mappingData = {};
+        let apiRows = [];
+
+        // 모달에 표시할 필드만 나열 (순서대로 표시). 필요 시 항목 추가/삭제/순서 변경.
+        const DETAIL_FIELDS = [
+            'fcltSeNm', 'dtlPstn', 'stnFlr', 'exitNo',
+            'gateInoutSe', 'utztnHr', 'operInstTelno', 'cusarThrghSeNm',
+            'grndUdgdSe', 'nrsrmUtztnMth', 'stllAcsYn', 'mwovenEn', 'wshstndEn', 'chwpEn', 'wthtEn'
+        ];
+
+        const OUTPUT_LABELS = {
+            lineNm: '호선명',
+            stnCd: '역코드',
+            stnNm: '역명',
+            stnNo: '역번호',
+            fcltNm: '시설명',
+            fcltSeNm: '시설구분명',
+            crtrYmd: '기준일자',
+            dtlPstn: '상세위치',
+            fcar: '시설면적',
+            FCAR: '시설면적(㎡)',
+            gateInoutSe: '게이트내외구분',
+            cusarThrghSeNm: '고객안전실경유구분명',
+            nrsrmUtztnMth: '수유실이용방식',
+            stllAcsYn: '유모차접근여부',
+            doorItphnEn: '출입문인터폰유무',
+            itphnEn: '인터폰유무',
+            nrspcLockEn: '수유공간잠금유무',
+            vstcdEn: '방문증유무',
+            hnstzYn: '손소독제여부',
+            dprSwchbrdCnt: '기저귀교환대수',
+            dprBoxEn: '기저귀수거함유무',
+            nrspttEn: '수유용칸막이유무',
+            spsofaEn: '1인용소파유무',
+            mpsofaEn: '다인용소파유무',
+            tableEn: '테이블유무',
+            wshstndEn: '세면대유무',
+            trmmtEn: '온도계유무',
+            hgmtEn: '습도계유무',
+            wthtEn: '온수기유무',
+            rfgrEn: '냉장고유무',
+            mwovenEn: '전자레인지유무',
+            chlhtrEn: '냉난방기유무',
+            acEn: '에어컨유무',
+            fanEn: '선풍기유무',
+            htrEn: '히터유무',
+            acnrEn: '공기청정기유무',
+            dspdprEn: '일회용기저귀패드유무',
+            tsEn: '각티슈유무',
+            ptlEn: '페이퍼타월유무',
+            safiEn: '유아용살균소독제유무',
+            lsEn: '물비누유무',
+            chwpEn: '냉온정수기유무',
+            infntBedEn: '유아침대유무',
+            nrsstlEn: '수유용발받침대유무',
+            nrsplwEn: '수유쿠션유무',
+            nrslgtEn: '수유등유무',
+            bmbEn: '유아모빌유무',
+            mwovenosEn: '렌지받침대유무',
+            portEn: '포트유무',
+            drtbEn: '화장대유무',
+            sofaCnt: '소파수',
+            infntBedCnt: '유아침대수',
+            grndUdgdSe: '지상지하구분',
+            stnFlr: '역층',
+            exitNo: '출구번호',
+            utztnHr: '이용시간',
+            operInstTelno: '운영기관전화번호'
+        };
+
+        function showLoading(show) {
+            document.getElementById('loading').style.display = show ? 'block' : 'none';
+        }
+        function showError(msg) {
+            const el = document.getElementById('error');
+            el.style.display = msg ? 'block' : 'none';
+            el.textContent = msg || '';
+        }
+        function showTable(show) {
+            document.getElementById('tableWrap').style.display = show ? 'block' : 'none';
+        }
+
+        function getImagePath(key, info) {
+            const rail = info.railOprIsttCd;
+            const ln = info.lnCd;
+            const prpr = info.prprStinCd;
+            const filename = key + ' (' + rail + '_' + ln + '_' + prpr + '.png)';
+            return IMAGE_DIR + '/' + encodeURIComponent(filename);
+        }
+
+        function openModal(key, info) {
+            const lnCd = info.lnCd;
+            const stinNm = info.stinNm;
+            const lineLabel = lnCd + ' 호선';
+            const stnLabel = stinNm + ' 역';
+
+            document.getElementById('modalTitle').textContent = lineLabel + ' ' + stnLabel;
+
+            const imgEl = document.getElementById('modalImg');
+            const placeholder = document.getElementById('modalImgPlaceholder');
+            imgEl.style.display = 'block';
+            imgEl.classList.remove('missing');
+            placeholder.style.display = 'none';
+            imgEl.src = getImagePath(key, info);
+            imgEl.onerror = function() {
+                imgEl.style.display = 'none';
+                placeholder.style.display = 'block';
+            };
+
+            function normStn(s) { return (s || '').replace(/\s*역\s*$/, '').trim(); }
+            function normLine(s) { return (s || '').trim(); }
+            function getApiVal(r, key) {
+                var v = r[key];
+                if (v !== undefined && v !== null && String(v).trim() !== '') return v;
+                var up = key === 'lineNm' ? 'LINE_NM' : key === 'stnNm' ? 'STN_NM' : null;
+                return up && r[up] != null ? r[up] : v;
+            }
+            const stinNmNorm = normStn(stinNm);
+            const lineLabelNorm = lnCd + '호선';
+
+            const rows = apiRows.filter(function(r) {
+                var apiLine = normLine(getApiVal(r, 'lineNm') || '');
+                var apiStn = normStn(getApiVal(r, 'stnNm') || '');
+                var lineMatch = apiLine.indexOf(lineLabelNorm) !== -1 || apiLine.indexOf(lnCd) === 0 || apiLine === lnCd;
+                var stnMatch = apiStn.indexOf(stinNmNorm) !== -1 || stinNmNorm.indexOf(apiStn) !== -1;
+                return lineMatch && stnMatch;
+            });
+
+            if (rows.length === 0 && apiRows.length > 0) {
+                console.log('[위치보기] 매칭 없음 — 검색 조건:', { lnCd: lnCd, stinNm: stinNm, lineLabelNorm: lineLabelNorm });
+                console.log('[위치보기] API 샘플 (처음 5건):', apiRows.slice(0, 5).map(function(r) {
+                    return { lineNm: r.lineNm, stnNm: r.stnNm };
+                }));
+            }
+
+            function getFieldLabel(f) {
+                return OUTPUT_LABELS[f] != null ? OUTPUT_LABELS[f] : f;
+            }
+
+            let detailHtml = '';
+            if (rows.length) {
+                rows.forEach(function(row, idx) {
+                    if (idx) detailHtml += '<p style="margin-top:16px; border-top:1px solid #eee; padding-top:12px;"></p>';
+                    detailHtml += '<table class="detail-table"><tbody>';
+                    DETAIL_FIELDS.forEach(function(f) {
+                        var val = row[f];
+                        if (val === undefined || val === null || String(val).trim() === '') return;
+                        detailHtml += '<tr><th>' + escapeHtml(getFieldLabel(f)) + '</th><td>' + escapeHtml(String(val)) + '</td></tr>';
+                    });
+                    detailHtml += '</tbody></table>';
+                });
+            } else {
+                detailHtml = '<p class="no-detail">이 역에 대한 수유실 상세 데이터가 없습니다. (API에서 해당 역 데이터를 찾지 못했거나, API 키/응답을 확인해 주세요.)</p>';
+            }
+            document.getElementById('modalDetail').innerHTML = detailHtml;
+            document.getElementById('modal').classList.add('show');
+        }
+
+        function escapeHtml(s) {
+            const div = document.createElement('div');
+            div.textContent = s;
+            return div.innerHTML;
+        }
+
+        function renderTable() {
+            const container = document.getElementById('accordionBody');
+            container.innerHTML = '';
+
+            var entries = Object.entries(mappingData).sort(function(a, b) {
+                var lnA = a[1].lnCd, lnB = b[1].lnCd;
+                if (lnA !== lnB) return parseInt(lnA, 10) - parseInt(lnB, 10);
+                return (a[1].stinNm || '').localeCompare(b[1].stinNm || '');
+            });
+
+            var groups = {};
+            entries.forEach(function(entry) {
+                var lnCd = entry[1].lnCd;
+                if (!groups[lnCd]) groups[lnCd] = [];
+                groups[lnCd].push(entry);
+            });
+
+            var lineOrder = Object.keys(groups).sort(function(a, b) {
+                return parseInt(a, 10) - parseInt(b, 10);
+            });
+
+            var chevronSvg = '<svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>';
+
+            lineOrder.forEach(function(lnCd, idx) {
+                var items = groups[lnCd];
+                var lineTitle = lnCd + ' 호선';
+                var count = items.length;
+
+                var itemEl = document.createElement('div');
+                itemEl.className = 'accordion-item' + (idx === 0 ? ' open' : '');
+                itemEl.innerHTML =
+                    '<button type="button" class="accordion-header" aria-expanded="' + (idx === 0 ? 'true' : 'false') + '" aria-controls="acc-panel-' + lnCd + '" id="acc-head-' + lnCd + '">' +
+                    '<span class="line-title">' + escapeHtml(lineTitle) + '</span>' +
+                    '<span class="line-count">' + count + '역</span>' +
+                    chevronSvg +
+                    '</button>' +
+                    '<div class="accordion-body" id="acc-panel-' + lnCd + '" role="region" aria-labelledby="acc-head-' + lnCd + '">' +
+                    '<table><thead><tr><th>역명</th><th>위치보기</th></tr></thead><tbody></tbody></table>' +
+                    '</div>';
+                container.appendChild(itemEl);
+
+                var tbody = itemEl.querySelector('.accordion-body tbody');
+                items.forEach(function(entry) {
+                    var key = entry[0];
+                    var info = entry[1];
+                    var stnLabel = info.stinNm + ' 역';
+                    var tr = document.createElement('tr');
+                    tr.innerHTML =
+                        '<td class="stn-cell"><a href="javascript:void(0)" data-key="' + escapeHtml(key) + '">' + escapeHtml(stnLabel) + '</a></td>' +
+                        '<td><button type="button" class="loc-btn" data-key="' + escapeHtml(key) + '">위치보기</button></td>';
+                    tbody.appendChild(tr);
+
+                    var openDetail = function() { openModal(key, info); };
+                    tr.querySelector('a').addEventListener('click', openDetail);
+                    tr.querySelector('.loc-btn').addEventListener('click', openDetail);
+                });
+
+                itemEl.querySelector('.accordion-header').addEventListener('click', function() {
+                    var allItems = container.querySelectorAll('.accordion-item');
+                    allItems.forEach(function(other) {
+                        if (other !== itemEl) {
+                            other.classList.remove('open');
+                            var otherHead = other.querySelector('.accordion-header');
+                            if (otherHead) otherHead.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+                    itemEl.classList.toggle('open');
+                    this.setAttribute('aria-expanded', itemEl.classList.contains('open'));
+                });
+            });
+        }
+
+        function init() {
+            document.getElementById('modalClose').addEventListener('click', function() {
+                document.getElementById('modal').classList.remove('show');
+            });
+            document.getElementById('modal').addEventListener('click', function(e) {
+                if (e.target === this) this.classList.remove('show');
+            });
+        }
+
+        async function load() {
+            showLoading(true);
+            showError('');
+            try {
+                const [mapRes, apiRes] = await Promise.all([
+                    fetch('station_prpr_mapping_ok.json'),
+                    fetch(PROXY_URL)
+                ]);
+                if (!mapRes.ok) throw new Error('역 목록 파일을 불러올 수 없습니다.');
+                mappingData = await mapRes.json();
+
+                var apiStatusEl = document.getElementById('apiStatus');
+                apiStatusEl.style.display = 'block';
+                apiStatusEl.classList.remove('fail');
+
+                if (apiRes.ok) {
+                    const text = await apiRes.text();
+                    if (text.trim().startsWith('<')) {
+                        console.warn('[수유실 API] XML 응답:', text.substring(0, 200));
+                        apiRows = [];
+                        apiStatusEl.textContent = '수유실 API: JSON이 아닌 응답이 반환되었습니다. 서버(api.info-zip.kr)를 확인하세요.';
+                        apiStatusEl.classList.add('fail');
+                    } else {
+                        try {
+                            const apiJson = JSON.parse(text);
+                            var body = apiJson.response && apiJson.response.body;
+                            var items = body && body.items;
+                            var itemArray = items && items.item;
+                            if (Array.isArray(itemArray)) {
+                                apiRows = itemArray;
+                            } else if (itemArray && typeof itemArray === 'object' && !Array.isArray(itemArray)) {
+                                apiRows = [itemArray];
+                            } else {
+                                apiRows = [];
+                            }
+                            if (apiRows.length > 0) {
+                                var totalCount = (body && typeof body.totalCount !== 'undefined') ? body.totalCount : apiRows.length;
+                                console.log('[수유실 API] 첫 행 샘플 (역명/호선 확인용):', {
+                                    lineNm: apiRows[0].lineNm,
+                                    stnNm: apiRows[0].stnNm,
+                                    totalCount: totalCount,
+                                    전체키: Object.keys(apiRows[0])
+                                });
+                                apiStatusEl.textContent = '수유실 API: ' + apiRows.length + '건 로드됨 (totalCount ' + totalCount + '). 역 클릭 시 상세 표시.';
+                            } else {
+                                apiStatusEl.textContent = '수유실 API: row 데이터 없음. 콘솔(F12)에서 응답 구조를 확인하세요.';
+                                apiStatusEl.classList.add('fail');
+                            }
+                        } catch (parseErr) {
+                            console.warn('[수유실 API] JSON 파싱 실패:', parseErr);
+                            apiRows = [];
+                            apiStatusEl.textContent = '수유실 API: 파싱 오류. 콘솔(F12) 확인.';
+                            apiStatusEl.classList.add('fail');
+                        }
+                    }
+                } else {
+                    apiRows = [];
+                    apiStatusEl.textContent = '수유실 API: HTTP ' + apiRes.status + ' 오류.';
+                    apiStatusEl.classList.add('fail');
+                }
+
+                renderTable();
+                showTable(true);
+            } catch (e) {
+                showError(e.message || '데이터를 불러오는 중 오류가 났습니다.');
+                showTable(false);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        init();
+        load();
+    </script>
+</body>
+</html>

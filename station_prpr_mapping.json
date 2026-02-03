@@ -1,0 +1,2522 @@
+{
+    "KR_1_연천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "연천",
+        "prprStinCd": "1370"
+    },
+    "KR_1_전곡": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "전곡",
+        "prprStinCd": "1369"
+    },
+    "KR_1_청산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "청산",
+        "prprStinCd": "1368"
+    },
+    "KR_1_소요산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "소요산",
+        "prprStinCd": "0324"
+    },
+    "KR_1_동두천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "동두천",
+        "prprStinCd": "0158"
+    },
+    "KR_1_보산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "보산",
+        "prprStinCd": "0235"
+    },
+    "KR_1_동두천중앙": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "동두천중앙",
+        "prprStinCd": "0159"
+    },
+    "KR_1_지행": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "지행",
+        "prprStinCd": "0538"
+    },
+    "KR_1_덕정": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "덕정",
+        "prprStinCd": "0141"
+    },
+    "KR_1_덕계": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "덕계",
+        "prprStinCd": "0139"
+    },
+    "KR_1_양주": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "양주",
+        "prprStinCd": "0403"
+    },
+    "KR_1_녹양": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "녹양",
+        "prprStinCd": "0118"
+    },
+    "KR_1_가능": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "가능",
+        "prprStinCd": "0002"
+    },
+    "KR_1_의정부": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "의정부",
+        "prprStinCd": "0470"
+    },
+    "KR_1_회룡": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "회룡",
+        "prprStinCd": "0606"
+    },
+    "KR_1_망월사": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "망월사",
+        "prprStinCd": "0190"
+    },
+    "KR_1_도봉산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "도봉산",
+        "prprStinCd": "0146"
+    },
+    "KR_1_도봉": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "도봉",
+        "prprStinCd": "0145"
+    },
+    "KR_1_방학": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "방학",
+        "prprStinCd": "0220"
+    },
+    "KR_1_창동": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "창동",
+        "prprStinCd": "0541"
+    },
+    "KR_1_녹천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "녹천",
+        "prprStinCd": "0119"
+    },
+    "KR_1_월계": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "월계",
+        "prprStinCd": "0459"
+    },
+    "KR_1_광운대": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "광운대",
+        "prprStinCd": "0065"
+    },
+    "KR_1_석계": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "석계",
+        "prprStinCd": "0300"
+    },
+    "KR_1_신이문": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "신이문",
+        "prprStinCd": "0371"
+    },
+    "KR_1_외대앞": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "외대앞",
+        "prprStinCd": "0442"
+    },
+    "KR_1_회기": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "회기",
+        "prprStinCd": "0604"
+    },
+    "S1_1_청량리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "청량리",
+        "prprStinCd": "0552"
+    },
+    "S1_1_제기동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "제기동",
+        "prprStinCd": "0512"
+    },
+    "S1_1_신설동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "신설동",
+        "prprStinCd": "0367"
+    },
+    "S1_1_동묘앞": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "동묘앞",
+        "prprStinCd": "0161"
+    },
+    "S1_1_동대문": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "동대문",
+        "prprStinCd": "0155"
+    },
+    "S1_1_종로5가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "종로5가",
+        "prprStinCd": "0517"
+    },
+    "S1_1_종로3가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "종로3가",
+        "prprStinCd": "0515"
+    },
+    "S1_1_종각": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "종각",
+        "prprStinCd": "0514"
+    },
+    "S1_1_시청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "시청",
+        "prprStinCd": "0347"
+    },
+    "S1_1_서울역": {
+        "railOprIsttCd": "S1",
+        "lnCd": "1",
+        "stinNm": "서울역",
+        "prprStinCd": "0296"
+    },
+    "KR_1_남영": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "남영",
+        "prprStinCd": "0108"
+    },
+    "KR_1_용산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "용산",
+        "prprStinCd": "0447"
+    },
+    "KR_1_노량진": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "노량진",
+        "prprStinCd": "0114"
+    },
+    "KR_1_대방": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "대방",
+        "prprStinCd": "0132"
+    },
+    "KR_1_신길": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "신길",
+        "prprStinCd": "0351"
+    },
+    "KR_1_영등포": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "영등포",
+        "prprStinCd": "0420"
+    },
+    "KR_1_신도림": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "신도림",
+        "prprStinCd": "0359"
+    },
+    "KR_1_구로": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "구로",
+        "prprStinCd": "0069"
+    },
+    "KR_1_구일": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "구일",
+        "prprStinCd": "0077"
+    },
+    "KR_1_개봉": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "개봉",
+        "prprStinCd": "0026"
+    },
+    "KR_1_오류동": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "오류동",
+        "prprStinCd": "0427"
+    },
+    "KR_1_온수": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "온수",
+        "prprStinCd": "0435"
+    },
+    "KR_1_역곡": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "역곡",
+        "prprStinCd": "0414"
+    },
+    "KR_1_소사": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "소사",
+        "prprStinCd": "0323"
+    },
+    "KR_1_부천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "부천",
+        "prprStinCd": "0246"
+    },
+    "KR_1_중동": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "중동",
+        "prprStinCd": "0526"
+    },
+    "KR_1_송내": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "송내",
+        "prprStinCd": "0327"
+    },
+    "KR_1_부개": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "부개",
+        "prprStinCd": "0244"
+    },
+    "KR_1_부평": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "부평",
+        "prprStinCd": "0249"
+    },
+    "KR_1_백운": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "백운",
+        "prprStinCd": "0226"
+    },
+    "KR_1_동암": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "동암",
+        "prprStinCd": "0164"
+    },
+    "KR_1_간석": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "간석",
+        "prprStinCd": "0013"
+    },
+    "KR_1_주안": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "주안",
+        "prprStinCd": "0519"
+    },
+    "KR_1_도화": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "도화",
+        "prprStinCd": "0149"
+    },
+    "KR_1_제물포": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "제물포",
+        "prprStinCd": "0513"
+    },
+    "KR_1_도원": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "도원",
+        "prprStinCd": "0148"
+    },
+    "KR_1_동인천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "동인천",
+        "prprStinCd": "0166"
+    },
+    "KR_1_인천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "인천",
+        "prprStinCd": "0481"
+    },
+    "KR_1_가산디지털단지": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "가산디지털단지",
+        "prprStinCd": "0004"
+    },
+    "KR_1_독산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "독산",
+        "prprStinCd": "0152"
+    },
+    "KR_1_금천구청": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "금천구청",
+        "prprStinCd": "0091"
+    },
+    "KR_1_광명": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "광명",
+        "prprStinCd": "0063"
+    },
+    "KR_1_석수": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "석수",
+        "prprStinCd": "0303"
+    },
+    "KR_1_관악": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "관악",
+        "prprStinCd": "0059"
+    },
+    "KR_1_안양": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "안양",
+        "prprStinCd": "0390"
+    },
+    "KR_1_명학": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "명학",
+        "prprStinCd": "0200"
+    },
+    "KR_1_금정": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "금정",
+        "prprStinCd": "0090"
+    },
+    "KR_1_군포": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "군포",
+        "prprStinCd": "0083"
+    },
+    "KR_1_당정": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "당정",
+        "prprStinCd": "0127"
+    },
+    "KR_1_의왕": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "의왕",
+        "prprStinCd": "0469"
+    },
+    "KR_1_성균관대": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "성균관대",
+        "prprStinCd": "0312"
+    },
+    "KR_1_화서": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "화서",
+        "prprStinCd": "0601"
+    },
+    "KR_1_수원": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "수원",
+        "prprStinCd": "0338"
+    },
+    "KR_1_세류": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "세류",
+        "prprStinCd": "0318"
+    },
+    "KR_1_병점": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "병점",
+        "prprStinCd": "0231"
+    },
+    "KR_1_서동탄": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "서동탄",
+        "prprStinCd": "0290"
+    },
+    "KR_1_세마": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "세마",
+        "prprStinCd": "0319"
+    },
+    "KR_1_오산대": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "오산대",
+        "prprStinCd": "0432"
+    },
+    "KR_1_오산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "오산",
+        "prprStinCd": "0431"
+    },
+    "KR_1_진위": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "진위",
+        "prprStinCd": "0540"
+    },
+    "KR_1_송탄": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "송탄",
+        "prprStinCd": "0331"
+    },
+    "KR_1_서정리": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "서정리",
+        "prprStinCd": "0297"
+    },
+    "KR_1_평택지제": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "평택지제",
+        "prprStinCd": "0535"
+    },
+    "KR_1_평택": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "평택",
+        "prprStinCd": "0579"
+    },
+    "KR_1_성환": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "성환",
+        "prprStinCd": "0317"
+    },
+    "KR_1_직산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "직산",
+        "prprStinCd": "0539"
+    },
+    "KR_1_두정": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "두정",
+        "prprStinCd": "0170"
+    },
+    "KR_1_천안": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "천안",
+        "prprStinCd": "0544"
+    },
+    "KR_1_봉명": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "봉명",
+        "prprStinCd": "0240"
+    },
+    "KR_1_쌍용": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "쌍용",
+        "prprStinCd": "0381"
+    },
+    "KR_1_아산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "아산",
+        "prprStinCd": "0382"
+    },
+    "KR_1_탕정": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "탕정",
+        "prprStinCd": "1356"
+    },
+    "KR_1_배방": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "배방",
+        "prprStinCd": "0222"
+    },
+    "KR_1_온양온천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "온양온천",
+        "prprStinCd": "0437"
+    },
+    "KR_1_신창": {
+        "railOprIsttCd": "KR",
+        "lnCd": "1",
+        "stinNm": "신창",
+        "prprStinCd": "0375"
+    },
+    "S1_2_시청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "시청",
+        "prprStinCd": "0347"
+    },
+    "S1_2_충정로": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "충정로",
+        "prprStinCd": "0564"
+    },
+    "S1_2_아현": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "아현",
+        "prprStinCd": "0386"
+    },
+    "S1_2_이대": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "이대",
+        "prprStinCd": "0473"
+    },
+    "S1_2_신촌": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신촌",
+        "prprStinCd": "0366"
+    },
+    "S1_2_홍대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "홍대입구",
+        "prprStinCd": "0596"
+    },
+    "S1_2_합정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "합정",
+        "prprStinCd": "0591"
+    },
+    "S1_2_당산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "당산",
+        "prprStinCd": "0126"
+    },
+    "S1_2_영등포구청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "영등포구청",
+        "prprStinCd": "0421"
+    },
+    "S1_2_문래": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "문래",
+        "prprStinCd": "0206"
+    },
+    "S1_2_신도림": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신도림",
+        "prprStinCd": "0359"
+    },
+    "S1_2_대림": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "대림",
+        "prprStinCd": "0130"
+    },
+    "S1_2_구로디지털단지": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "구로디지털단지",
+        "prprStinCd": "0070"
+    },
+    "S1_2_신대방": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신대방",
+        "prprStinCd": "0357"
+    },
+    "S1_2_신림": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신림",
+        "prprStinCd": "0361"
+    },
+    "S1_2_봉천": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "봉천",
+        "prprStinCd": "0242"
+    },
+    "S1_2_서울대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "서울대입구",
+        "prprStinCd": "0294"
+    },
+    "S1_2_낙성대": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "낙성대",
+        "prprStinCd": "0102"
+    },
+    "S1_2_사당": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "사당",
+        "prprStinCd": "0257"
+    },
+    "S1_2_방배": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "방배",
+        "prprStinCd": "0218"
+    },
+    "S1_2_서초": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "서초",
+        "prprStinCd": "0298"
+    },
+    "S1_2_교대": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "교대",
+        "prprStinCd": "0068"
+    },
+    "S1_2_강남": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "강남",
+        "prprStinCd": "0017"
+    },
+    "S1_2_역삼": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "역삼",
+        "prprStinCd": "0415"
+    },
+    "S1_2_선릉": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "선릉",
+        "prprStinCd": "0306"
+    },
+    "S1_2_삼성": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "삼성",
+        "prprStinCd": "0266"
+    },
+    "S1_2_종합운동장": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "종합운동장",
+        "prprStinCd": "0518"
+    },
+    "S1_2_잠실새내": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "잠실새내",
+        "prprStinCd": "0499"
+    },
+    "S1_2_잠실": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "잠실",
+        "prprStinCd": "0497"
+    },
+    "S1_2_잠실나루": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "잠실나루",
+        "prprStinCd": "0498"
+    },
+    "S1_2_강변": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "강변",
+        "prprStinCd": "0023"
+    },
+    "S1_2_구의": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "구의",
+        "prprStinCd": "0076"
+    },
+    "S1_2_건대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "건대입구",
+        "prprStinCd": "0031"
+    },
+    "S1_2_성수": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "성수",
+        "prprStinCd": "0314"
+    },
+    "S1_2_뚝섬": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "뚝섬",
+        "prprStinCd": "0175"
+    },
+    "S1_2_한양대": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "한양대",
+        "prprStinCd": "0588"
+    },
+    "S1_2_왕십리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "왕십리",
+        "prprStinCd": "0441"
+    },
+    "S1_2_상왕십리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "상왕십리",
+        "prprStinCd": "0279"
+    },
+    "S1_2_신당": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신당",
+        "prprStinCd": "0356"
+    },
+    "S1_2_동대문역사문화공원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "동대문역사문화공원",
+        "prprStinCd": "0156"
+    },
+    "S1_2_을지로4가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "을지로4가",
+        "prprStinCd": "0465"
+    },
+    "S1_2_을지로3가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "을지로3가",
+        "prprStinCd": "0464"
+    },
+    "S1_2_을지로입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "을지로입구",
+        "prprStinCd": "0466"
+    },
+    "S1_2_용답": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "용답",
+        "prprStinCd": "0443"
+    },
+    "S1_2_신답": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신답",
+        "prprStinCd": "0355"
+    },
+    "S1_2_용두": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "용두",
+        "prprStinCd": "0444"
+    },
+    "S1_2_신설동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신설동",
+        "prprStinCd": "0367"
+    },
+    "S1_2_도림천": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "도림천",
+        "prprStinCd": "0144"
+    },
+    "S1_2_양천구청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "양천구청",
+        "prprStinCd": "0404"
+    },
+    "S1_2_신정네거리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "신정네거리",
+        "prprStinCd": "0373"
+    },
+    "S1_2_까치산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "2",
+        "stinNm": "까치산",
+        "prprStinCd": "0100"
+    },
+    "KR_3_대화": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "대화",
+        "prprStinCd": "0137"
+    },
+    "KR_3_주엽": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "주엽",
+        "prprStinCd": "0522"
+    },
+    "KR_3_정발산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "정발산",
+        "prprStinCd": "0508"
+    },
+    "KR_3_마두": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "마두",
+        "prprStinCd": "0179"
+    },
+    "KR_3_백석": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "백석",
+        "prprStinCd": "0224"
+    },
+    "KR_3_대곡": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "대곡",
+        "prprStinCd": "0128"
+    },
+    "KR_3_화정": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "화정",
+        "prprStinCd": "0603"
+    },
+    "KR_3_원당": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "원당",
+        "prprStinCd": "0456"
+    },
+    "KR_3_원흥": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "원흥",
+        "prprStinCd": "0036"
+    },
+    "KR_3_삼송": {
+        "railOprIsttCd": "KR",
+        "lnCd": "3",
+        "stinNm": "삼송",
+        "prprStinCd": "0268"
+    },
+    "S1_3_지축": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "지축",
+        "prprStinCd": "0536"
+    },
+    "S1_3_구파발": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "구파발",
+        "prprStinCd": "0078"
+    },
+    "S1_3_연신내": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "연신내",
+        "prprStinCd": "0418"
+    },
+    "S1_3_불광": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "불광",
+        "prprStinCd": "0255"
+    },
+    "S1_3_녹번": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "녹번",
+        "prprStinCd": "0116"
+    },
+    "S1_3_홍제": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "홍제",
+        "prprStinCd": "0597"
+    },
+    "S1_3_무악재": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "무악재",
+        "prprStinCd": "0205"
+    },
+    "S1_3_독립문": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "독립문",
+        "prprStinCd": "0150"
+    },
+    "S1_3_경복궁": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "경복궁",
+        "prprStinCd": "0040"
+    },
+    "S1_3_안국": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "안국",
+        "prprStinCd": "0387"
+    },
+    "S1_3_종로3가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "종로3가",
+        "prprStinCd": "0515"
+    },
+    "S1_3_을지로3가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "을지로3가",
+        "prprStinCd": "0464"
+    },
+    "S1_3_충무로": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "충무로",
+        "prprStinCd": "0563"
+    },
+    "S1_3_동대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "동대입구",
+        "prprStinCd": "0157"
+    },
+    "S1_3_약수": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "약수",
+        "prprStinCd": "0397"
+    },
+    "S1_3_금호": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "금호",
+        "prprStinCd": "0093"
+    },
+    "S1_3_옥수": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "옥수",
+        "prprStinCd": "0434"
+    },
+    "S1_3_압구정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "압구정",
+        "prprStinCd": "0392"
+    },
+    "S1_3_신사": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "신사",
+        "prprStinCd": "0365"
+    },
+    "S1_3_잠원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "잠원",
+        "prprStinCd": "0500"
+    },
+    "S1_3_고속터미널": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "고속터미널",
+        "prprStinCd": "0048"
+    },
+    "S1_3_교대": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "교대",
+        "prprStinCd": "0068"
+    },
+    "S1_3_남부터미널": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "남부터미널",
+        "prprStinCd": "0106"
+    },
+    "S1_3_양재": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "양재",
+        "prprStinCd": "0400"
+    },
+    "S1_3_매봉": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "매봉",
+        "prprStinCd": "0193"
+    },
+    "S1_3_도곡": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "도곡",
+        "prprStinCd": "0142"
+    },
+    "S1_3_대치": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "대치",
+        "prprStinCd": "0136"
+    },
+    "S1_3_학여울": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "학여울",
+        "prprStinCd": "0583"
+    },
+    "S1_3_대청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "대청",
+        "prprStinCd": "0135"
+    },
+    "S1_3_일원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "일원",
+        "prprStinCd": "0494"
+    },
+    "S1_3_수서": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "수서",
+        "prprStinCd": "0337"
+    },
+    "S1_3_가락시장": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "가락시장",
+        "prprStinCd": "0003"
+    },
+    "S1_3_경찰병원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "경찰병원",
+        "prprStinCd": "0043"
+    },
+    "S1_3_오금": {
+        "railOprIsttCd": "S1",
+        "lnCd": "3",
+        "stinNm": "오금",
+        "prprStinCd": "0426"
+    },
+    "NU_4_진접": {
+        "railOprIsttCd": "NU",
+        "lnCd": "4",
+        "stinNm": "진접",
+        "prprStinCd": "1355"
+    },
+    "NU_4_오남": {
+        "railOprIsttCd": "NU",
+        "lnCd": "4",
+        "stinNm": "오남",
+        "prprStinCd": "1354"
+    },
+    "NU_4_별내별가람": {
+        "railOprIsttCd": "NU",
+        "lnCd": "4",
+        "stinNm": "별내별가람",
+        "prprStinCd": "1353"
+    },
+    "S1_4_불암산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "불암산",
+        "prprStinCd": "0125"
+    },
+    "S1_4_상계": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "상계",
+        "prprStinCd": "0272"
+    },
+    "S1_4_노원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "노원",
+        "prprStinCd": "0115"
+    },
+    "S1_4_창동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "창동",
+        "prprStinCd": "0541"
+    },
+    "S1_4_쌍문": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "쌍문",
+        "prprStinCd": "0380"
+    },
+    "S1_4_수유": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "수유",
+        "prprStinCd": "0340"
+    },
+    "S1_4_미아": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "미아",
+        "prprStinCd": "0211"
+    },
+    "S1_4_미아사거리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "미아사거리",
+        "prprStinCd": "0212"
+    },
+    "S1_4_길음": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "길음",
+        "prprStinCd": "0096"
+    },
+    "S1_4_성신여대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "성신여대입구",
+        "prprStinCd": "0315"
+    },
+    "S1_4_한성대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "한성대입구",
+        "prprStinCd": "0587"
+    },
+    "S1_4_혜화": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "혜화",
+        "prprStinCd": "0594"
+    },
+    "S1_4_동대문": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "동대문",
+        "prprStinCd": "0155"
+    },
+    "S1_4_동대문역사문화공원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "동대문역사문화공원",
+        "prprStinCd": "0156"
+    },
+    "S1_4_충무로": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "충무로",
+        "prprStinCd": "0563"
+    },
+    "S1_4_명동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "명동",
+        "prprStinCd": "0197"
+    },
+    "S1_4_회현": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "회현",
+        "prprStinCd": "0607"
+    },
+    "S1_4_서울역": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "서울역",
+        "prprStinCd": "0296"
+    },
+    "S1_4_숙대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "숙대입구",
+        "prprStinCd": "0343"
+    },
+    "S1_4_삼각지": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "삼각지",
+        "prprStinCd": "0263"
+    },
+    "S1_4_신용산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "신용산",
+        "prprStinCd": "0369"
+    },
+    "S1_4_이촌": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "이촌",
+        "prprStinCd": "0477"
+    },
+    "S1_4_동작": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "동작",
+        "prprStinCd": "0167"
+    },
+    "S1_4_총신대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "총신대입구",
+        "prprStinCd": "0560"
+    },
+    "S1_4_사당": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "사당",
+        "prprStinCd": "0257"
+    },
+    "S1_4_남태령": {
+        "railOprIsttCd": "S1",
+        "lnCd": "4",
+        "stinNm": "남태령",
+        "prprStinCd": "0110"
+    },
+    "KR_4_선바위": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "선바위",
+        "prprStinCd": "0307"
+    },
+    "KR_4_경마공원": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "경마공원",
+        "prprStinCd": "0039"
+    },
+    "KR_4_대공원": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "대공원",
+        "prprStinCd": "0129"
+    },
+    "KR_4_과천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "과천",
+        "prprStinCd": "0058"
+    },
+    "KR_4_정부과천청사": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "정부과천청사",
+        "prprStinCd": "0509"
+    },
+    "KR_4_인덕원": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "인덕원",
+        "prprStinCd": "0480"
+    },
+    "KR_4_평촌": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "평촌",
+        "prprStinCd": "0578"
+    },
+    "KR_4_범계": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "범계",
+        "prprStinCd": "0228"
+    },
+    "KR_4_금정": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "금정",
+        "prprStinCd": "0090"
+    },
+    "KR_4_산본": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "산본",
+        "prprStinCd": "0260"
+    },
+    "KR_4_수리산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "수리산",
+        "prprStinCd": "0335"
+    },
+    "KR_4_대야미": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "대야미",
+        "prprStinCd": "0134"
+    },
+    "KR_4_반월": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "반월",
+        "prprStinCd": "0214"
+    },
+    "KR_4_상록수": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "상록수",
+        "prprStinCd": "0275"
+    },
+    "KR_4_한대앞": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "한대앞",
+        "prprStinCd": "0586"
+    },
+    "KR_4_중앙": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "중앙",
+        "prprStinCd": "0529"
+    },
+    "KR_4_고잔": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "고잔",
+        "prprStinCd": "0049"
+    },
+    "KR_4_초지": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "초지",
+        "prprStinCd": "0559"
+    },
+    "KR_4_안산": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "안산",
+        "prprStinCd": "0388"
+    },
+    "KR_4_신길온천": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "신길온천",
+        "prprStinCd": "0352"
+    },
+    "KR_4_정왕": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "정왕",
+        "prprStinCd": "0510"
+    },
+    "KR_4_오이도": {
+        "railOprIsttCd": "KR",
+        "lnCd": "4",
+        "stinNm": "오이도",
+        "prprStinCd": "0433"
+    },
+    "S1_5_방화": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "방화",
+        "prprStinCd": "0221"
+    },
+    "S1_5_개화산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "개화산",
+        "prprStinCd": "0029"
+    },
+    "S1_5_김포공항": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "김포공항",
+        "prprStinCd": "0099"
+    },
+    "S1_5_송정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "송정",
+        "prprStinCd": "0330"
+    },
+    "S1_5_마곡": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "마곡",
+        "prprStinCd": "0177"
+    },
+    "S1_5_발산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "발산",
+        "prprStinCd": "0217"
+    },
+    "S1_5_우장산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "우장산",
+        "prprStinCd": "0449"
+    },
+    "S1_5_화곡": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "화곡",
+        "prprStinCd": "0599"
+    },
+    "S1_5_까치산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "까치산",
+        "prprStinCd": "0100"
+    },
+    "S1_5_신정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "신정",
+        "prprStinCd": "0372"
+    },
+    "S1_5_목동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "목동",
+        "prprStinCd": "0203"
+    },
+    "S1_5_오목교": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "오목교",
+        "prprStinCd": "0429"
+    },
+    "S1_5_양평": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "양평",
+        "prprStinCd": "0316"
+    },
+    "S1_5_영등포구청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "영등포구청",
+        "prprStinCd": "0421"
+    },
+    "S1_5_영등포시장": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "영등포시장",
+        "prprStinCd": "0422"
+    },
+    "S1_5_신길": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "신길",
+        "prprStinCd": "0351"
+    },
+    "S1_5_여의도": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "여의도",
+        "prprStinCd": "0412"
+    },
+    "S1_5_여의나루": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "여의나루",
+        "prprStinCd": "0411"
+    },
+    "S1_5_마포": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "마포",
+        "prprStinCd": "0185"
+    },
+    "S1_5_공덕": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "공덕",
+        "prprStinCd": "0054"
+    },
+    "S1_5_애오개": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "애오개",
+        "prprStinCd": "0394"
+    },
+    "S1_5_충정로": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "충정로",
+        "prprStinCd": "0564"
+    },
+    "S1_5_서대문": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "서대문",
+        "prprStinCd": "0289"
+    },
+    "S1_5_광화문": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "광화문",
+        "prprStinCd": "0066"
+    },
+    "S1_5_종로3가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "종로3가",
+        "prprStinCd": "0515"
+    },
+    "S1_5_을지로4가": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "을지로4가",
+        "prprStinCd": "0465"
+    },
+    "S1_5_동대문역사문화공원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "동대문역사문화공원",
+        "prprStinCd": "0156"
+    },
+    "S1_5_청구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "청구",
+        "prprStinCd": "0549"
+    },
+    "S1_5_신금호": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "신금호",
+        "prprStinCd": "0350"
+    },
+    "S1_5_행당": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "행당",
+        "prprStinCd": "0592"
+    },
+    "S1_5_왕십리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "왕십리",
+        "prprStinCd": "0441"
+    },
+    "S1_5_마장": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "마장",
+        "prprStinCd": "0182"
+    },
+    "S1_5_답십리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "답십리",
+        "prprStinCd": "0124"
+    },
+    "S1_5_장한평": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "장한평",
+        "prprStinCd": "0505"
+    },
+    "S1_5_군자": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "군자",
+        "prprStinCd": "0082"
+    },
+    "S1_5_아차산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "아차산",
+        "prprStinCd": "0385"
+    },
+    "S1_5_광나루": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "광나루",
+        "prprStinCd": "0062"
+    },
+    "S1_5_천호": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "천호",
+        "prprStinCd": "0546"
+    },
+    "S1_5_강동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "강동",
+        "prprStinCd": "0020"
+    },
+    "S1_5_길동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "길동",
+        "prprStinCd": "0095"
+    },
+    "S1_5_굽은다리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "굽은다리",
+        "prprStinCd": "0086"
+    },
+    "S1_5_명일": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "명일",
+        "prprStinCd": "0198"
+    },
+    "S1_5_고덕": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "고덕",
+        "prprStinCd": "0046"
+    },
+    "S1_5_상일동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "상일동",
+        "prprStinCd": "0281"
+    },
+    "S1_5_강일": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "강일",
+        "prprStinCd": "0436"
+    },
+    "S1_5_미사": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "미사",
+        "prprStinCd": "0475"
+    },
+    "S1_5_하남풍산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "하남풍산",
+        "prprStinCd": "0478"
+    },
+    "S1_5_하남시청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "하남시청",
+        "prprStinCd": "0482"
+    },
+    "S1_5_하남검단산역": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "하남검단산역",
+        "prprStinCd": "0489"
+    },
+    "S1_5_둔촌동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "둔촌동",
+        "prprStinCd": "0172"
+    },
+    "S1_5_올림픽공원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "올림픽공원",
+        "prprStinCd": "0438"
+    },
+    "S1_5_방이": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "방이",
+        "prprStinCd": "0219"
+    },
+    "S1_5_오금": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "오금",
+        "prprStinCd": "0426"
+    },
+    "S1_5_개롱": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "개롱",
+        "prprStinCd": "0025"
+    },
+    "S1_5_거여": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "거여",
+        "prprStinCd": "0030"
+    },
+    "S1_5_마천": {
+        "railOprIsttCd": "S1",
+        "lnCd": "5",
+        "stinNm": "마천",
+        "prprStinCd": "0184"
+    },
+    "S1_6_응암": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "응암",
+        "prprStinCd": "0468"
+    },
+    "S1_6_역촌": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "역촌",
+        "prprStinCd": "0416"
+    },
+    "S1_6_불광": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "불광",
+        "prprStinCd": "0255"
+    },
+    "S1_6_독바위": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "독바위",
+        "prprStinCd": "0151"
+    },
+    "S1_6_연신내": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "연신내",
+        "prprStinCd": "0418"
+    },
+    "S1_6_구산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "구산",
+        "prprStinCd": "0074"
+    },
+    "S1_6_새절": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "새절",
+        "prprStinCd": "0285"
+    },
+    "S1_6_증산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "증산",
+        "prprStinCd": "0532"
+    },
+    "S1_6_디지털미디어시티": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "디지털미디어시티",
+        "prprStinCd": "0174"
+    },
+    "S1_6_월드컵경기장": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "월드컵경기장",
+        "prprStinCd": "0462"
+    },
+    "S1_6_마포구청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "마포구청",
+        "prprStinCd": "0186"
+    },
+    "S1_6_망원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "망원",
+        "prprStinCd": "0189"
+    },
+    "S1_6_합정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "합정",
+        "prprStinCd": "0591"
+    },
+    "S1_6_상수": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "상수",
+        "prprStinCd": "0278"
+    },
+    "S1_6_광흥창": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "광흥창",
+        "prprStinCd": "0067"
+    },
+    "S1_6_대흥": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "대흥",
+        "prprStinCd": "0138"
+    },
+    "S1_6_공덕": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "공덕",
+        "prprStinCd": "0054"
+    },
+    "S1_6_효창공원앞": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "효창공원앞",
+        "prprStinCd": "0609"
+    },
+    "S1_6_삼각지": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "삼각지",
+        "prprStinCd": "0263"
+    },
+    "S1_6_녹사평": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "녹사평",
+        "prprStinCd": "0117"
+    },
+    "S1_6_이태원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "이태원",
+        "prprStinCd": "0479"
+    },
+    "S1_6_한강진": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "한강진",
+        "prprStinCd": "0584"
+    },
+    "S1_6_버티고개": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "버티고개",
+        "prprStinCd": "0227"
+    },
+    "S1_6_약수": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "약수",
+        "prprStinCd": "0397"
+    },
+    "S1_6_청구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "청구",
+        "prprStinCd": "0549"
+    },
+    "S1_6_신당": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "신당",
+        "prprStinCd": "0356"
+    },
+    "S1_6_동묘앞": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "동묘앞",
+        "prprStinCd": "0161"
+    },
+    "S1_6_창신": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "창신",
+        "prprStinCd": "0542"
+    },
+    "S1_6_보문": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "보문",
+        "prprStinCd": "0234"
+    },
+    "S1_6_안암": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "안암",
+        "prprStinCd": "0389"
+    },
+    "S1_6_고려대": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "고려대",
+        "prprStinCd": "0047"
+    },
+    "S1_6_월곡": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "월곡",
+        "prprStinCd": "0460"
+    },
+    "S1_6_상월곡": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "상월곡",
+        "prprStinCd": "0280"
+    },
+    "S1_6_돌곶이": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "돌곶이",
+        "prprStinCd": "0154"
+    },
+    "S1_6_석계": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "석계",
+        "prprStinCd": "0300"
+    },
+    "S1_6_태릉입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "태릉입구",
+        "prprStinCd": "0568"
+    },
+    "S1_6_화랑대": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "화랑대",
+        "prprStinCd": "0600"
+    },
+    "S1_6_봉화산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "봉화산",
+        "prprStinCd": "0243"
+    },
+    "S1_6_신내": {
+        "railOprIsttCd": "S1",
+        "lnCd": "6",
+        "stinNm": "신내",
+        "prprStinCd": "0353"
+    },
+    "S1_7_장암": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "장암",
+        "prprStinCd": "0503"
+    },
+    "S1_7_도봉산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "도봉산",
+        "prprStinCd": "0146"
+    },
+    "S1_7_수락산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "수락산",
+        "prprStinCd": "0334"
+    },
+    "S1_7_마들": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "마들",
+        "prprStinCd": "0180"
+    },
+    "S1_7_노원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "노원",
+        "prprStinCd": "0115"
+    },
+    "S1_7_중계": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "중계",
+        "prprStinCd": "0524"
+    },
+    "S1_7_하계": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "하계",
+        "prprStinCd": "0581"
+    },
+    "S1_7_공릉": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "공릉",
+        "prprStinCd": "0055"
+    },
+    "S1_7_태릉입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "태릉입구",
+        "prprStinCd": "0568"
+    },
+    "S1_7_먹골": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "먹골",
+        "prprStinCd": "0195"
+    },
+    "S1_7_중화": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "중화",
+        "prprStinCd": "0530"
+    },
+    "S1_7_상봉": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "상봉",
+        "prprStinCd": "0276"
+    },
+    "S1_7_면목": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "면목",
+        "prprStinCd": "0196"
+    },
+    "S1_7_사가정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "사가정",
+        "prprStinCd": "0256"
+    },
+    "S1_7_용마산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "용마산",
+        "prprStinCd": "0445"
+    },
+    "S1_7_중곡": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "중곡",
+        "prprStinCd": "0525"
+    },
+    "S1_7_군자": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "군자",
+        "prprStinCd": "0082"
+    },
+    "S1_7_어린이대공원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "어린이대공원",
+        "prprStinCd": "0408"
+    },
+    "S1_7_건대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "건대입구",
+        "prprStinCd": "0031"
+    },
+    "S1_7_자양": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "자양",
+        "prprStinCd": "0176"
+    },
+    "S1_7_청담": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "청담",
+        "prprStinCd": "0550"
+    },
+    "S1_7_강남구청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "강남구청",
+        "prprStinCd": "0018"
+    },
+    "S1_7_학동": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "학동",
+        "prprStinCd": "0582"
+    },
+    "S1_7_논현": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "논현",
+        "prprStinCd": "0120"
+    },
+    "S1_7_반포": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "반포",
+        "prprStinCd": "0215"
+    },
+    "S1_7_고속터미널": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "고속터미널",
+        "prprStinCd": "0048"
+    },
+    "S1_7_내방": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "내방",
+        "prprStinCd": "0112"
+    },
+    "S1_7_총신대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "총신대입구",
+        "prprStinCd": "0560"
+    },
+    "S1_7_남성": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "남성",
+        "prprStinCd": "0107"
+    },
+    "S1_7_숭실대입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "숭실대입구",
+        "prprStinCd": "0344"
+    },
+    "S1_7_상도": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "상도",
+        "prprStinCd": "0273"
+    },
+    "S1_7_장승배기": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "장승배기",
+        "prprStinCd": "0502"
+    },
+    "S1_7_신대방삼거리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "신대방삼거리",
+        "prprStinCd": "0358"
+    },
+    "S1_7_보라매": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "보라매",
+        "prprStinCd": "0232"
+    },
+    "S1_7_신풍": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "신풍",
+        "prprStinCd": "0378"
+    },
+    "S1_7_대림": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "대림",
+        "prprStinCd": "0130"
+    },
+    "S1_7_남구로": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "남구로",
+        "prprStinCd": "0103"
+    },
+    "S1_7_가산디지털단지": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "가산디지털단지",
+        "prprStinCd": "0004"
+    },
+    "S1_7_철산": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "철산",
+        "prprStinCd": "0547"
+    },
+    "S1_7_광명사거리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "광명사거리",
+        "prprStinCd": "0064"
+    },
+    "S1_7_천왕": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "천왕",
+        "prprStinCd": "0545"
+    },
+    "S1_7_온수": {
+        "railOprIsttCd": "S1",
+        "lnCd": "7",
+        "stinNm": "온수",
+        "prprStinCd": "0435"
+    },
+    "IC_7_까치울": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "까치울",
+        "prprStinCd": "0101"
+    },
+    "IC_7_부천종합운동장": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "부천종합운동장",
+        "prprStinCd": "0248"
+    },
+    "IC_7_춘의": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "춘의",
+        "prprStinCd": "0561"
+    },
+    "IC_7_신중동": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "신중동",
+        "prprStinCd": "0374"
+    },
+    "IC_7_부천시청": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "부천시청",
+        "prprStinCd": "0247"
+    },
+    "IC_7_상동": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "상동",
+        "prprStinCd": "0274"
+    },
+    "IC_7_삼산체육관": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "삼산체육관",
+        "prprStinCd": "0265"
+    },
+    "IC_7_굴포천": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "굴포천",
+        "prprStinCd": "0085"
+    },
+    "IC_7_부평구청": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "부평구청",
+        "prprStinCd": "0250"
+    },
+    "IC_7_산곡": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "산곡",
+        "prprStinCd": "1352"
+    },
+    "IC_7_석남": {
+        "railOprIsttCd": "IC",
+        "lnCd": "7",
+        "stinNm": "석남",
+        "prprStinCd": "0301"
+    },
+    "NU_8_별내": {
+        "railOprIsttCd": "NU",
+        "lnCd": "8",
+        "stinNm": "별내",
+        "prprStinCd": "0230"
+    },
+    "NU_8_다산": {
+        "railOprIsttCd": "NU",
+        "lnCd": "8",
+        "stinNm": "다산",
+        "prprStinCd": "1376"
+    },
+    "GU_8_동구릉": {
+        "railOprIsttCd": "GU",
+        "lnCd": "8",
+        "stinNm": "동구릉",
+        "prprStinCd": "1375"
+    },
+    "GU_8_구리": {
+        "railOprIsttCd": "GU",
+        "lnCd": "8",
+        "stinNm": "구리",
+        "prprStinCd": "0072"
+    },
+    "GU_8_장자호수공원": {
+        "railOprIsttCd": "GU",
+        "lnCd": "8",
+        "stinNm": "장자호수공원",
+        "prprStinCd": "1374"
+    },
+    "S1_8_암사역사공원": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "암사역사공원",
+        "prprStinCd": "1373"
+    },
+    "S1_8_암사": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "암사",
+        "prprStinCd": "0391"
+    },
+    "S1_8_천호": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "천호",
+        "prprStinCd": "0546"
+    },
+    "S1_8_강동구청": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "강동구청",
+        "prprStinCd": "0021"
+    },
+    "S1_8_몽촌토성": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "몽촌토성",
+        "prprStinCd": "0204"
+    },
+    "S1_8_잠실": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "잠실",
+        "prprStinCd": "0497"
+    },
+    "S1_8_석촌": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "석촌",
+        "prprStinCd": "0305"
+    },
+    "S1_8_송파": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "송파",
+        "prprStinCd": "0332"
+    },
+    "S1_8_가락시장": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "가락시장",
+        "prprStinCd": "0003"
+    },
+    "S1_8_문정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "문정",
+        "prprStinCd": "0208"
+    },
+    "S1_8_장지": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "장지",
+        "prprStinCd": "0504"
+    },
+    "S1_8_복정": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "복정",
+        "prprStinCd": "0238"
+    },
+    "S1_8_남위례": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "남위례",
+        "prprStinCd": "1366"
+    },
+    "S1_8_산성": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "산성",
+        "prprStinCd": "0261"
+    },
+    "S1_8_남한산성입구": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "남한산성입구",
+        "prprStinCd": "0111"
+    },
+    "S1_8_단대오거리": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "단대오거리",
+        "prprStinCd": "0122"
+    },
+    "S1_8_신흥": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "신흥",
+        "prprStinCd": "0379"
+    },
+    "S1_8_수진": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "수진",
+        "prprStinCd": "0342"
+    },
+    "S1_8_모란": {
+        "railOprIsttCd": "S1",
+        "lnCd": "8",
+        "stinNm": "모란",
+        "prprStinCd": "0201"
+    }
+}

@@ -1,0 +1,8520 @@
+{
+    "서울역": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A01",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "9006",
+            "lnNm": "GTX-A"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "1251",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "150",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "426",
+            "lnNm": "4호선"
+        }
+    ],
+    "공덕": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A02",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "0312",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2530",
+            "lnNm": "5호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2627",
+            "lnNm": "6호선"
+        }
+    ],
+    "홍대입구": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A03",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K314",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "239",
+            "lnNm": "2호선"
+        }
+    ],
+    "디지털미디어시티": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A04",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K316",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2619",
+            "lnNm": "6호선"
+        }
+    ],
+    "마곡나루": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A042",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0905",
+            "lnNm": "9호선"
+        }
+    ],
+    "김포공항": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A05",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G109",
+            "lnNm": "김포골드라인"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2513",
+            "lnNm": "5호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0902",
+            "lnNm": "9호선"
+        }
+    ],
+    "계양": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A06",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "110",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "검암": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A07",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "207",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "청라국제도시": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A071",
+            "lnNm": "공항철도"
+        }
+    ],
+    "영종": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A072",
+            "lnNm": "공항철도"
+        }
+    ],
+    "운서": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A08",
+            "lnNm": "공항철도"
+        }
+    ],
+    "공항화물청사": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A09",
+            "lnNm": "공항철도"
+        }
+    ],
+    "인천공항1터미널": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A10",
+            "lnNm": "공항철도"
+        },
+        {
+            "railOprIsttCd": "IA",
+            "lnCd": "M1",
+            "stinCd": "0101",
+            "lnNm": "자기부상"
+        }
+    ],
+    "인천공항2터미널": [
+        {
+            "railOprIsttCd": "AR",
+            "lnCd": "A1",
+            "stinCd": "A11",
+            "lnNm": "공항철도"
+        }
+    ],
+    "사상(서부터미널)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0101",
+            "lnNm": "부산김해경전철"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "227",
+            "lnNm": "2호선"
+        }
+    ],
+    "괘법르네시떼(강변공원)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0102",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "서부산유통지구(금호마을)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0103",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "공항": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0104",
+            "lnNm": "부산김해경전철"
+        },
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "115",
+            "lnNm": "1호선"
+        }
+    ],
+    "덕두": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0105",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "등구": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0106",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "대저": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0107",
+            "lnNm": "부산김해경전철"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "317",
+            "lnNm": "3호선"
+        }
+    ],
+    "평강": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0108",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "대사": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0109",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "불암": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0110",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "지내": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0111",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "김해대학(안동)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0112",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "인제대(활천)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0113",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "김해시청": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0114",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "부원": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0115",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "봉황(김해여객터미널)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0116",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "수로왕릉(김해보건소)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0117",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "박물관": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0118",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "연지공원": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0119",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "장신대(화정)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0120",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "가야대(삼계)": [
+        {
+            "railOprIsttCd": "BG",
+            "lnCd": "B1",
+            "stinCd": "0121",
+            "lnNm": "부산김해경전철"
+        }
+    ],
+    "동매": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "100",
+            "lnNm": "1호선"
+        }
+    ],
+    "신평": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "101",
+            "lnNm": "1호선"
+        }
+    ],
+    "하단(부산본병원)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "102",
+            "lnNm": "1호선"
+        }
+    ],
+    "당리(사하구청)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "103",
+            "lnNm": "1호선"
+        }
+    ],
+    "사하": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "104",
+            "lnNm": "1호선"
+        }
+    ],
+    "괴정": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "105",
+            "lnNm": "1호선"
+        }
+    ],
+    "대티(동주대학)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "106",
+            "lnNm": "1호선"
+        }
+    ],
+    "서대신": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "107",
+            "lnNm": "1호선"
+        }
+    ],
+    "동대신": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "108",
+            "lnNm": "1호선"
+        }
+    ],
+    "토성": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "109",
+            "lnNm": "1호선"
+        }
+    ],
+    "자갈치": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "110",
+            "lnNm": "1호선"
+        }
+    ],
+    "남포": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "111",
+            "lnNm": "1호선"
+        }
+    ],
+    "중앙": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "112",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "K252",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K252",
+            "lnNm": "수인분당"
+        }
+    ],
+    "부산": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "113",
+            "lnNm": "1호선"
+        }
+    ],
+    "초량": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "114",
+            "lnNm": "1호선"
+        }
+    ],
+    "부산진": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "115",
+            "lnNm": "1호선"
+        }
+    ],
+    "좌천": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "116",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K125",
+            "lnNm": "동해"
+        }
+    ],
+    "범일": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "117",
+            "lnNm": "1호선"
+        }
+    ],
+    "범내골": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "118",
+            "lnNm": "1호선"
+        }
+    ],
+    "서면": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "119",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "219",
+            "lnNm": "2호선"
+        }
+    ],
+    "부전(부산시민공원.송상현광장)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "120",
+            "lnNm": "1호선"
+        }
+    ],
+    "양정": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "121",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K125",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "시청(연제)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "122",
+            "lnNm": "1호선"
+        }
+    ],
+    "연산": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "123",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "305",
+            "lnNm": "3호선"
+        }
+    ],
+    "교대": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "124",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0128",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K113",
+            "lnNm": "동해"
+        }
+    ],
+    "동래": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "125",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "402",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K114",
+            "lnNm": "동해"
+        }
+    ],
+    "명륜": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "126",
+            "lnNm": "1호선"
+        }
+    ],
+    "온천장": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "127",
+            "lnNm": "1호선"
+        }
+    ],
+    "부산대": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "128",
+            "lnNm": "1호선"
+        }
+    ],
+    "장전(부산가톨릭대학교)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "129",
+            "lnNm": "1호선"
+        }
+    ],
+    "구서": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "130",
+            "lnNm": "1호선"
+        }
+    ],
+    "두실": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "131",
+            "lnNm": "1호선"
+        }
+    ],
+    "남산(부산외국대학교)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "132",
+            "lnNm": "1호선"
+        }
+    ],
+    "범어사": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "133",
+            "lnNm": "1호선"
+        }
+    ],
+    "노포(종합버스터미널)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "134",
+            "lnNm": "1호선"
+        }
+    ],
+    "다대포해수욕장": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "195",
+            "lnNm": "1호선"
+        }
+    ],
+    "다대포항": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "196",
+            "lnNm": "1호선"
+        }
+    ],
+    "낫개": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "197",
+            "lnNm": "1호선"
+        }
+    ],
+    "신장림": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "198",
+            "lnNm": "1호선"
+        }
+    ],
+    "장림": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "1",
+            "stinCd": "199",
+            "lnNm": "1호선"
+        }
+    ],
+    "장산(해운대백병원)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "201",
+            "lnNm": "2호선"
+        }
+    ],
+    "중동": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "202",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "1822",
+            "lnNm": "1호선"
+        }
+    ],
+    "해운대": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "203",
+            "lnNm": "2호선"
+        }
+    ],
+    "동백": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "204",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y114",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "벡스코(시립미술관)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "205",
+            "lnNm": "2호선"
+        }
+    ],
+    "센텀시티(BEXCO.신세계)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "206",
+            "lnNm": "2호선"
+        }
+    ],
+    "민락": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "207",
+            "lnNm": "2호선"
+        }
+    ],
+    "수영": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "208",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "301",
+            "lnNm": "3호선"
+        }
+    ],
+    "광안": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "209",
+            "lnNm": "2호선"
+        }
+    ],
+    "금련산": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "210",
+            "lnNm": "2호선"
+        }
+    ],
+    "남천(KBS.수영구청)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "211",
+            "lnNm": "2호선"
+        }
+    ],
+    "경성대.부경대(동명대학교)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "212",
+            "lnNm": "2호선"
+        }
+    ],
+    "대연(고려병원)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "213",
+            "lnNm": "2호선"
+        }
+    ],
+    "못골(남구청)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "214",
+            "lnNm": "2호선"
+        }
+    ],
+    "지게골": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "215",
+            "lnNm": "2호선"
+        }
+    ],
+    "문현": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "216",
+            "lnNm": "2호선"
+        }
+    ],
+    "국제금융센터.부산은행": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "217",
+            "lnNm": "2호선"
+        }
+    ],
+    "전포": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "218",
+            "lnNm": "2호선"
+        }
+    ],
+    "부암(온종합병원)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "220",
+            "lnNm": "2호선"
+        }
+    ],
+    "가야": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "221",
+            "lnNm": "2호선"
+        }
+    ],
+    "동의대": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "222",
+            "lnNm": "2호선"
+        }
+    ],
+    "개금": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "223",
+            "lnNm": "2호선"
+        }
+    ],
+    "냉정": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "224",
+            "lnNm": "2호선"
+        }
+    ],
+    "주례": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "225",
+            "lnNm": "2호선"
+        }
+    ],
+    "감전(사상구청)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "226",
+            "lnNm": "2호선"
+        }
+    ],
+    "덕포": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "228",
+            "lnNm": "2호선"
+        }
+    ],
+    "모덕": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "229",
+            "lnNm": "2호선"
+        }
+    ],
+    "모라": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "230",
+            "lnNm": "2호선"
+        }
+    ],
+    "구남": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "231",
+            "lnNm": "2호선"
+        }
+    ],
+    "구명": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "232",
+            "lnNm": "2호선"
+        }
+    ],
+    "덕천(부산과기대)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "233",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "313",
+            "lnNm": "3호선"
+        }
+    ],
+    "수정(방송통신대)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "234",
+            "lnNm": "2호선"
+        }
+    ],
+    "화명": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "235",
+            "lnNm": "2호선"
+        }
+    ],
+    "율리": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "236",
+            "lnNm": "2호선"
+        }
+    ],
+    "동원": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "237",
+            "lnNm": "2호선"
+        }
+    ],
+    "금곡": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "238",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P127",
+            "lnNm": "경춘"
+        }
+    ],
+    "호포": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "239",
+            "lnNm": "2호선"
+        }
+    ],
+    "증산": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "240",
+            "lnNm": "2호선"
+        }
+    ],
+    "부산대양산캠퍼스": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "241",
+            "lnNm": "2호선"
+        }
+    ],
+    "남양산(범어)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "242",
+            "lnNm": "2호선"
+        }
+    ],
+    "양산(시청.동원과학기술대학교)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "2",
+            "stinCd": "243",
+            "lnNm": "2호선"
+        }
+    ],
+    "망미(병무청)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "302",
+            "lnNm": "3호선"
+        }
+    ],
+    "배산": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "303",
+            "lnNm": "3호선"
+        }
+    ],
+    "물만골": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "304",
+            "lnNm": "3호선"
+        }
+    ],
+    "거제(법원.검찰청)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "306",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K112",
+            "lnNm": "동해"
+        }
+    ],
+    "종합운동장": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "307",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "218",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "930",
+            "lnNm": "9호선"
+        }
+    ],
+    "사직": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "308",
+            "lnNm": "3호선"
+        }
+    ],
+    "미남": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "309",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "401",
+            "lnNm": "4호선"
+        }
+    ],
+    "만덕": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "310",
+            "lnNm": "3호선"
+        }
+    ],
+    "남산정(부산폴리텍대학)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "311",
+            "lnNm": "3호선"
+        }
+    ],
+    "숙등(부민병원)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "312",
+            "lnNm": "3호선"
+        }
+    ],
+    "구포": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "314",
+            "lnNm": "3호선"
+        }
+    ],
+    "강서구청": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "315",
+            "lnNm": "3호선"
+        }
+    ],
+    "체육공원": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "3",
+            "stinCd": "316",
+            "lnNm": "3호선"
+        }
+    ],
+    "수안": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "403",
+            "lnNm": "4호선"
+        }
+    ],
+    "낙민": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "404",
+            "lnNm": "4호선"
+        }
+    ],
+    "충렬사(안락)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "405",
+            "lnNm": "4호선"
+        }
+    ],
+    "명장": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "406",
+            "lnNm": "4호선"
+        }
+    ],
+    "서동": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "407",
+            "lnNm": "4호선"
+        }
+    ],
+    "금사": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "408",
+            "lnNm": "4호선"
+        }
+    ],
+    "반여농산물시장": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "409",
+            "lnNm": "4호선"
+        }
+    ],
+    "석대": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "410",
+            "lnNm": "4호선"
+        }
+    ],
+    "영산대(아랫반송)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "411",
+            "lnNm": "4호선"
+        }
+    ],
+    "윗반송": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "412",
+            "lnNm": "4호선"
+        }
+    ],
+    "고촌": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "413",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G108",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "안평(고촌주택단지)": [
+        {
+            "railOprIsttCd": "BS",
+            "lnCd": "4",
+            "stinCd": "414",
+            "lnNm": "4호선"
+        }
+    ],
+    "설화명곡": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0115",
+            "lnNm": "1호선"
+        }
+    ],
+    "화원": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0116",
+            "lnNm": "1호선"
+        }
+    ],
+    "대곡(정부대구청사)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0117",
+            "lnNm": "1호선"
+        }
+    ],
+    "진천": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0118",
+            "lnNm": "1호선"
+        }
+    ],
+    "월배": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0119",
+            "lnNm": "1호선"
+        }
+    ],
+    "상인": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0120",
+            "lnNm": "1호선"
+        }
+    ],
+    "월촌": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0121",
+            "lnNm": "1호선"
+        }
+    ],
+    "송현": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0122",
+            "lnNm": "1호선"
+        }
+    ],
+    "서부정류장(관문시장)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0123",
+            "lnNm": "1호선"
+        }
+    ],
+    "대명": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0124",
+            "lnNm": "1호선"
+        }
+    ],
+    "안지랑": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0125",
+            "lnNm": "1호선"
+        }
+    ],
+    "현충로": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0126",
+            "lnNm": "1호선"
+        }
+    ],
+    "영대병원": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0127",
+            "lnNm": "1호선"
+        }
+    ],
+    "명덕(2.28민주운동기념회관)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0129",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0331",
+            "lnNm": "3호선"
+        }
+    ],
+    "반월당": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0130",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0230",
+            "lnNm": "2호선"
+        }
+    ],
+    "대구역": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0132",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K7",
+            "stinCd": "0132",
+            "lnNm": "대경선"
+        }
+    ],
+    "칠성시장": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0133",
+            "lnNm": "1호선"
+        }
+    ],
+    "신천(경북대입구)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0134",
+            "lnNm": "1호선"
+        }
+    ],
+    "동대구역": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0135",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K7",
+            "stinCd": "0135",
+            "lnNm": "대경선"
+        }
+    ],
+    "동구청(큰고개)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0136",
+            "lnNm": "1호선"
+        }
+    ],
+    "아양교": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0137",
+            "lnNm": "1호선"
+        }
+    ],
+    "동촌": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0138",
+            "lnNm": "1호선"
+        }
+    ],
+    "해안": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0139",
+            "lnNm": "1호선"
+        }
+    ],
+    "방촌": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0140",
+            "lnNm": "1호선"
+        }
+    ],
+    "용계": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0141",
+            "lnNm": "1호선"
+        }
+    ],
+    "율하": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0142",
+            "lnNm": "1호선"
+        }
+    ],
+    "신기": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0143",
+            "lnNm": "1호선"
+        }
+    ],
+    "반야월": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0144",
+            "lnNm": "1호선"
+        }
+    ],
+    "각산": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0145",
+            "lnNm": "1호선"
+        }
+    ],
+    "안심(혁신도시.첨복단지)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0146",
+            "lnNm": "1호선"
+        }
+    ],
+    "대구한의대병원": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0147",
+            "lnNm": "1호선"
+        }
+    ],
+    "부호": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0148",
+            "lnNm": "1호선"
+        }
+    ],
+    "하양": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "0149",
+            "lnNm": "1호선"
+        }
+    ],
+    "중앙로": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "1",
+            "stinCd": "3140",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0005",
+            "lnNm": "1호선"
+        }
+    ],
+    "문양": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0216",
+            "lnNm": "2호선"
+        }
+    ],
+    "다사": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0217",
+            "lnNm": "2호선"
+        }
+    ],
+    "대실": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0218",
+            "lnNm": "2호선"
+        }
+    ],
+    "강창": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0219",
+            "lnNm": "2호선"
+        }
+    ],
+    "계명대": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0220",
+            "lnNm": "2호선"
+        }
+    ],
+    "성서산업단지": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0221",
+            "lnNm": "2호선"
+        }
+    ],
+    "이곡": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0222",
+            "lnNm": "2호선"
+        }
+    ],
+    "용산(서부법원.검찰청입구)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0223",
+            "lnNm": "2호선"
+        }
+    ],
+    "죽전": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0224",
+            "lnNm": "2호선"
+        }
+    ],
+    "감삼": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0225",
+            "lnNm": "2호선"
+        }
+    ],
+    "두류": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0226",
+            "lnNm": "2호선"
+        }
+    ],
+    "내당": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0227",
+            "lnNm": "2호선"
+        }
+    ],
+    "반고개": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0228",
+            "lnNm": "2호선"
+        }
+    ],
+    "청라언덕": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0229",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0329",
+            "lnNm": "3호선"
+        }
+    ],
+    "경대병원": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0231",
+            "lnNm": "2호선"
+        }
+    ],
+    "대구은행": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0232",
+            "lnNm": "2호선"
+        }
+    ],
+    "범어": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0233",
+            "lnNm": "2호선"
+        }
+    ],
+    "수성구청(KBS)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0234",
+            "lnNm": "2호선"
+        }
+    ],
+    "만촌": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0235",
+            "lnNm": "2호선"
+        }
+    ],
+    "담티(산대.대륜)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0236",
+            "lnNm": "2호선"
+        }
+    ],
+    "연호": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0237",
+            "lnNm": "2호선"
+        }
+    ],
+    "수성알파시티(삼성라이온즈파크)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0238",
+            "lnNm": "2호선"
+        }
+    ],
+    "고산": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0239",
+            "lnNm": "2호선"
+        }
+    ],
+    "신매": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0240",
+            "lnNm": "2호선"
+        }
+    ],
+    "사월": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0241",
+            "lnNm": "2호선"
+        }
+    ],
+    "정평": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0242",
+            "lnNm": "2호선"
+        }
+    ],
+    "임당": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0243",
+            "lnNm": "2호선"
+        }
+    ],
+    "영남대": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "2",
+            "stinCd": "0244",
+            "lnNm": "2호선"
+        }
+    ],
+    "칠곡경대병원": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0312",
+            "lnNm": "3호선"
+        }
+    ],
+    "학정": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0313",
+            "lnNm": "3호선"
+        }
+    ],
+    "팔거(국립농관원.통계청)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0314",
+            "lnNm": "3호선"
+        }
+    ],
+    "동천": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0315",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "D14",
+            "lnNm": "신분당선"
+        }
+    ],
+    "칠곡운암": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0316",
+            "lnNm": "3호선"
+        }
+    ],
+    "구암": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0317",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0017",
+            "lnNm": "1호선"
+        }
+    ],
+    "태전": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0318",
+            "lnNm": "3호선"
+        }
+    ],
+    "매천": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0319",
+            "lnNm": "3호선"
+        }
+    ],
+    "매천시장": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0320",
+            "lnNm": "3호선"
+        }
+    ],
+    "팔달": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0321",
+            "lnNm": "3호선"
+        }
+    ],
+    "공단": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0322",
+            "lnNm": "3호선"
+        }
+    ],
+    "만평": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0323",
+            "lnNm": "3호선"
+        }
+    ],
+    "팔달시장": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0324",
+            "lnNm": "3호선"
+        }
+    ],
+    "원대": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0325",
+            "lnNm": "3호선"
+        }
+    ],
+    "북구청": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0326",
+            "lnNm": "3호선"
+        }
+    ],
+    "달성공원": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0327",
+            "lnNm": "3호선"
+        }
+    ],
+    "서문시장(동산병원)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0328",
+            "lnNm": "3호선"
+        }
+    ],
+    "남산": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0330",
+            "lnNm": "3호선"
+        }
+    ],
+    "건들바위": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0332",
+            "lnNm": "3호선"
+        }
+    ],
+    "대봉교": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0333",
+            "lnNm": "3호선"
+        }
+    ],
+    "수성시장": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0334",
+            "lnNm": "3호선"
+        }
+    ],
+    "수성구민운동장": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0335",
+            "lnNm": "3호선"
+        }
+    ],
+    "어린이세상": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0336",
+            "lnNm": "3호선"
+        }
+    ],
+    "황금": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0337",
+            "lnNm": "3호선"
+        }
+    ],
+    "수성못(TBC)": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0338",
+            "lnNm": "3호선"
+        }
+    ],
+    "지산": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0339",
+            "lnNm": "3호선"
+        }
+    ],
+    "범물": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0340",
+            "lnNm": "3호선"
+        }
+    ],
+    "용지": [
+        {
+            "railOprIsttCd": "DG",
+            "lnCd": "3",
+            "stinCd": "0341",
+            "lnNm": "3호선"
+        }
+    ],
+    "판암(대전대)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0001",
+            "lnNm": "1호선"
+        }
+    ],
+    "신흥": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0002",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2825",
+            "lnNm": "8호선"
+        }
+    ],
+    "대동(우송대)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0003",
+            "lnNm": "1호선"
+        }
+    ],
+    "대전": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0004",
+            "lnNm": "1호선"
+        }
+    ],
+    "중구청": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0006",
+            "lnNm": "1호선"
+        }
+    ],
+    "서대전네거리": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0007",
+            "lnNm": "1호선"
+        }
+    ],
+    "오룡": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0008",
+            "lnNm": "1호선"
+        }
+    ],
+    "용문": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0009",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K137",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "탄방": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0010",
+            "lnNm": "1호선"
+        }
+    ],
+    "시청": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0011",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "151",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "201",
+            "lnNm": "2호선"
+        }
+    ],
+    "정부청사": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0012",
+            "lnNm": "1호선"
+        }
+    ],
+    "갈마": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0013",
+            "lnNm": "1호선"
+        }
+    ],
+    "월평(한국과학기술원)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0014",
+            "lnNm": "1호선"
+        }
+    ],
+    "갑천": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0015",
+            "lnNm": "1호선"
+        }
+    ],
+    "유성온천(충남대.목원대)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0016",
+            "lnNm": "1호선"
+        }
+    ],
+    "현충원(한밭대)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0018",
+            "lnNm": "1호선"
+        }
+    ],
+    "월드컵경기장(노은도매시장)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0019",
+            "lnNm": "1호선"
+        }
+    ],
+    "노은": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0020",
+            "lnNm": "1호선"
+        }
+    ],
+    "지족(침신대)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0021",
+            "lnNm": "1호선"
+        }
+    ],
+    "반석(칠성대)": [
+        {
+            "railOprIsttCd": "DJ",
+            "lnCd": "1",
+            "stinCd": "0022",
+            "lnNm": "1호선"
+        }
+    ],
+    "논현": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4305",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2734",
+            "lnNm": "7호선"
+        }
+    ],
+    "신논현": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4306",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0925",
+            "lnNm": "9호선"
+        }
+    ],
+    "강남": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4307",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "222",
+            "lnNm": "2호선"
+        }
+    ],
+    "양재(서초구청)": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4308",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "332",
+            "lnNm": "3호선"
+        }
+    ],
+    "양재시민의숲(매헌)": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4309",
+            "lnNm": "신분당선"
+        }
+    ],
+    "청계산입구": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4310",
+            "lnNm": "신분당선"
+        }
+    ],
+    "판교(판교테크노밸리)": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4311",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K409",
+            "lnNm": "경강"
+        }
+    ],
+    "정자": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4312",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K230",
+            "lnNm": "수인분당"
+        }
+    ],
+    "성복": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4316",
+            "lnNm": "신분당선"
+        }
+    ],
+    "상현": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4317",
+            "lnNm": "신분당선"
+        }
+    ],
+    "광교중앙(아주대)": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4318",
+            "lnNm": "신분당선"
+        }
+    ],
+    "광교(경기대)": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "4319",
+            "lnNm": "신분당선"
+        }
+    ],
+    "신사": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "D04",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "327",
+            "lnNm": "3호선"
+        }
+    ],
+    "미금(분당서울대병원)": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "D13",
+            "lnNm": "신분당선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K231",
+            "lnNm": "수인분당"
+        }
+    ],
+    "수지구청": [
+        {
+            "railOprIsttCd": "DX",
+            "lnCd": "D1",
+            "stinCd": "D15",
+            "lnNm": "신분당선"
+        }
+    ],
+    "기흥(백남준아트센터)": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y110",
+            "lnNm": "용인에버라인"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K237",
+            "lnNm": "수인분당"
+        }
+    ],
+    "강남대": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y111",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "지석": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y112",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "어정": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y113",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "초당": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y115",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "삼가": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y116",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "시청.용인대": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y117",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "명지대": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y118",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "김량장": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y119",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "운동장.송담대": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y120",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "고진": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y121",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "보평": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y122",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "둔전": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y123",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "전대.에버랜드": [
+        {
+            "railOprIsttCd": "EV",
+            "lnCd": "E1",
+            "stinCd": "Y124",
+            "lnNm": "용인에버라인"
+        }
+    ],
+    "녹동": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "100",
+            "lnNm": "1호선"
+        }
+    ],
+    "소태": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "101",
+            "lnNm": "1호선"
+        }
+    ],
+    "학동증심사입구": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "102",
+            "lnNm": "1호선"
+        }
+    ],
+    "남광주": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "103",
+            "lnNm": "1호선"
+        }
+    ],
+    "문화전당": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "104",
+            "lnNm": "1호선"
+        }
+    ],
+    "금남로4가": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "105",
+            "lnNm": "1호선"
+        }
+    ],
+    "금남로5가": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "106",
+            "lnNm": "1호선"
+        }
+    ],
+    "양동시장": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "107",
+            "lnNm": "1호선"
+        }
+    ],
+    "돌고개": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "108",
+            "lnNm": "1호선"
+        }
+    ],
+    "농성": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "109",
+            "lnNm": "1호선"
+        }
+    ],
+    "화정": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "110",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "0315",
+            "lnNm": "3호선"
+        }
+    ],
+    "쌍촌": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "111",
+            "lnNm": "1호선"
+        }
+    ],
+    "운천": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "112",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K336",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "상무": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "113",
+            "lnNm": "1호선"
+        }
+    ],
+    "김대중컨벤션센터": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "114",
+            "lnNm": "1호선"
+        }
+    ],
+    "송정공원": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "116",
+            "lnNm": "1호선"
+        }
+    ],
+    "광주송정역": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "117",
+            "lnNm": "1호선"
+        }
+    ],
+    "도산": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "118",
+            "lnNm": "1호선"
+        }
+    ],
+    "평동": [
+        {
+            "railOprIsttCd": "GJ",
+            "lnCd": "1",
+            "stinCd": "119",
+            "lnNm": "1호선"
+        }
+    ],
+    "양촌": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G100",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "구래": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G101",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "마산": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G102",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "장기": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G103",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "운양": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G104",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "걸포북변": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G105",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "사우(김포시청)": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G106",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "풍무": [
+        {
+            "railOprIsttCd": "GM",
+            "lnCd": "G1",
+            "stinCd": "G107",
+            "lnNm": "김포골드라인"
+        }
+    ],
+    "구리": [
+        {
+            "railOprIsttCd": "GU",
+            "lnCd": "8",
+            "stinCd": "2805",
+            "lnNm": "8호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K123",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "동구릉": [
+        {
+            "railOprIsttCd": "GU",
+            "lnCd": "8",
+            "stinCd": "2807",
+            "lnNm": "8호선"
+        }
+    ],
+    "장자호수공원": [
+        {
+            "railOprIsttCd": "GU",
+            "lnCd": "8",
+            "stinCd": "2808",
+            "lnNm": "8호선"
+        }
+    ],
+    "운정중앙": [
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "9001",
+            "lnNm": "GTX-A"
+        }
+    ],
+    "킨텍스": [
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "9002",
+            "lnNm": "GTX-A"
+        }
+    ],
+    "대곡": [
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "9003",
+            "lnNm": "GTX-A"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "0314",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K322",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S11",
+            "lnNm": "서해"
+        }
+    ],
+    "연신내": [
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "9005",
+            "lnNm": "GTX-A"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "311",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2615",
+            "lnNm": "6호선"
+        }
+    ],
+    "수서": [
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "9007",
+            "lnNm": "GTX-A"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K221",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "339",
+            "lnNm": "3호선"
+        }
+    ],
+    "성남": [
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "9008",
+            "lnNm": "GTX-A"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K410",
+            "lnNm": "경강"
+        }
+    ],
+    "구성": [
+        {
+            "railOprIsttCd": "GX",
+            "lnCd": "A",
+            "stinCd": "K235",
+            "lnNm": "GTX-A"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K235",
+            "lnNm": "수인분당"
+        }
+    ],
+    "장기주차장": [
+        {
+            "railOprIsttCd": "IA",
+            "lnCd": "M1",
+            "stinCd": "0102",
+            "lnNm": "자기부상"
+        }
+    ],
+    "합동청사": [
+        {
+            "railOprIsttCd": "IA",
+            "lnCd": "M1",
+            "stinCd": "0103",
+            "lnNm": "자기부상"
+        }
+    ],
+    "파라다이스시티": [
+        {
+            "railOprIsttCd": "IA",
+            "lnCd": "M1",
+            "stinCd": "0104",
+            "lnNm": "자기부상"
+        }
+    ],
+    "워터파크": [
+        {
+            "railOprIsttCd": "IA",
+            "lnCd": "M1",
+            "stinCd": "0105",
+            "lnNm": "자기부상"
+        }
+    ],
+    "용유": [
+        {
+            "railOprIsttCd": "IA",
+            "lnCd": "M1",
+            "stinCd": "0106",
+            "lnNm": "자기부상"
+        }
+    ],
+    "까치울": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "751",
+            "lnNm": "7호선"
+        }
+    ],
+    "부천종합운동장": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "752",
+            "lnNm": "7호선"
+        }
+    ],
+    "춘의": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "753",
+            "lnNm": "7호선"
+        }
+    ],
+    "신중동": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "754",
+            "lnNm": "7호선"
+        }
+    ],
+    "부천시청": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "755",
+            "lnNm": "7호선"
+        }
+    ],
+    "상동": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "756",
+            "lnNm": "7호선"
+        }
+    ],
+    "삼산체육관": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "757",
+            "lnNm": "7호선"
+        }
+    ],
+    "굴포천": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "758",
+            "lnNm": "7호선"
+        }
+    ],
+    "부평구청": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "759",
+            "lnNm": "7호선"
+        },
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "118",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "산곡": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "760",
+            "lnNm": "7호선"
+        }
+    ],
+    "석남(거북시장)": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "7",
+            "stinCd": "761",
+            "lnNm": "7호선"
+        }
+    ],
+    "검단호수공원": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "107",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "신검단중앙": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "108",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "아라": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "109",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "귤현": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "111",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "박촌": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "112",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "임학": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "113",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "계산": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "114",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "경인교대입구": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "115",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "작전": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "116",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "갈산": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "117",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "부평시장": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "119",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "부평": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "120",
+            "lnNm": "인천1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0152",
+            "lnNm": "1호선"
+        }
+    ],
+    "동수": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "121",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "부평삼거리": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "122",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "간석오거리": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "123",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "인천시청": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "124",
+            "lnNm": "인천1호선"
+        },
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "221",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "예술회관": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "125",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "인천터미널": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "126",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "문학경기장": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "127",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "선학": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "128",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "신연수": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "129",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "원인재": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "130",
+            "lnNm": "인천1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K265",
+            "lnNm": "수인분당"
+        }
+    ],
+    "동춘": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "131",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "동막": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "132",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "캠퍼스타운": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "133",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "테크노파크": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "134",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "지식정보단지": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "135",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "인천대입구": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "136",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "센트럴파크": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "137",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "국제업무지구": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "138",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "송도달빛축제공원": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I1",
+            "stinCd": "139",
+            "lnNm": "인천1호선"
+        }
+    ],
+    "검단오류": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "201",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "왕길": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "202",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "검단사거리": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "203",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "마전": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "204",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "완정": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "205",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "독정": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "206",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "검바위": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "208",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "아시아드경기장": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "209",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "서구청": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "210",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "가정": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "211",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "가정중앙시장": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "212",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "석남": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "213",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "서부여성회관": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "214",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "인천가좌": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "215",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "가재울": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "216",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "주안국가산단": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "217",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "주안": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "218",
+            "lnNm": "인천2호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "156",
+            "lnNm": "1호선"
+        }
+    ],
+    "시민공원": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "219",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "석바위시장": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "220",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "석천사거리": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "222",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "모래내시장": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "223",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "만수": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "224",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "남동구청": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "225",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "인천대공원": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "226",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "운연": [
+        {
+            "railOprIsttCd": "IC",
+            "lnCd": "I2",
+            "stinCd": "227",
+            "lnNm": "인천2호선"
+        }
+    ],
+    "지행": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0104",
+            "lnNm": "1호선"
+        }
+    ],
+    "도봉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0114",
+            "lnNm": "1호선"
+        }
+    ],
+    "창동": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0116",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "412",
+            "lnNm": "4호선"
+        }
+    ],
+    "월계": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0118",
+            "lnNm": "1호선"
+        }
+    ],
+    "외대앞": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0122",
+            "lnNm": "1호선"
+        }
+    ],
+    "대방": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0137",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S402",
+            "lnNm": "신림선"
+        }
+    ],
+    "신길": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0138",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2526",
+            "lnNm": "5호선"
+        }
+    ],
+    "덕정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0141",
+            "lnNm": "1호선"
+        }
+    ],
+    "구일": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0142",
+            "lnNm": "1호선"
+        }
+    ],
+    "온수": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0145",
+            "lnNm": "1호선"
+        }
+    ],
+    "역곡": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0146",
+            "lnNm": "1호선"
+        }
+    ],
+    "송내": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0150",
+            "lnNm": "1호선"
+        }
+    ],
+    "성균관대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "0153",
+            "lnNm": "1호선"
+        }
+    ],
+    "소요산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "100",
+            "lnNm": "1호선"
+        }
+    ],
+    "청산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "100-1",
+            "lnNm": "1호선"
+        }
+    ],
+    "전곡": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "100-2",
+            "lnNm": "1호선"
+        }
+    ],
+    "연천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "100-3",
+            "lnNm": "1호선"
+        }
+    ],
+    "동두천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "101",
+            "lnNm": "1호선"
+        }
+    ],
+    "보산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "102",
+            "lnNm": "1호선"
+        }
+    ],
+    "동두천중앙": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "103",
+            "lnNm": "1호선"
+        }
+    ],
+    "덕계": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "106",
+            "lnNm": "1호선"
+        }
+    ],
+    "녹양": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "108",
+            "lnNm": "1호선"
+        }
+    ],
+    "가능": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "109",
+            "lnNm": "1호선"
+        }
+    ],
+    "의정부": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "110",
+            "lnNm": "1호선"
+        }
+    ],
+    "회룡": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "111",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0111",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "망월사": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "112",
+            "lnNm": "1호선"
+        }
+    ],
+    "도봉산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "113",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2712",
+            "lnNm": "7호선"
+        }
+    ],
+    "방학": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "115",
+            "lnNm": "1호선"
+        }
+    ],
+    "녹천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "117",
+            "lnNm": "1호선"
+        }
+    ],
+    "석계": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "120",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2645",
+            "lnNm": "6호선"
+        }
+    ],
+    "신이문": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "121",
+            "lnNm": "1호선"
+        }
+    ],
+    "회기": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "123",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "K118",
+            "lnNm": "경춘"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "123",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "남영": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "134",
+            "lnNm": "1호선"
+        }
+    ],
+    "용산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "135",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K110",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "노량진": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "136",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "917",
+            "lnNm": "9호선"
+        }
+    ],
+    "영등포": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "139",
+            "lnNm": "1호선"
+        }
+    ],
+    "신도림": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "140",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "234",
+            "lnNm": "2호선"
+        }
+    ],
+    "개봉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "143",
+            "lnNm": "1호선"
+        }
+    ],
+    "오류동": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "144",
+            "lnNm": "1호선"
+        }
+    ],
+    "소사": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "147",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S16",
+            "lnNm": "서해"
+        }
+    ],
+    "부천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "148",
+            "lnNm": "1호선"
+        }
+    ],
+    "부개": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "151",
+            "lnNm": "1호선"
+        }
+    ],
+    "백운": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "153",
+            "lnNm": "1호선"
+        }
+    ],
+    "동암": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "154",
+            "lnNm": "1호선"
+        }
+    ],
+    "도화": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "157",
+            "lnNm": "1호선"
+        }
+    ],
+    "제물포": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "158",
+            "lnNm": "1호선"
+        }
+    ],
+    "도원": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "159",
+            "lnNm": "1호선"
+        }
+    ],
+    "동인천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "160",
+            "lnNm": "1호선"
+        }
+    ],
+    "인천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "161",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K272",
+            "lnNm": "수인분당"
+        }
+    ],
+    "세류": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "1715",
+            "lnNm": "1호선"
+        }
+    ],
+    "간석": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "1816",
+            "lnNm": "1호선"
+        }
+    ],
+    "광운대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "199",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "119",
+            "lnNm": "경춘"
+        }
+    ],
+    "양주": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "K107",
+            "lnNm": "1호선"
+        }
+    ],
+    "광명": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "K410",
+            "lnNm": "1호선"
+        }
+    ],
+    "구로": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P141",
+            "lnNm": "1호선"
+        }
+    ],
+    "가산디지털단지": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P142",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2748",
+            "lnNm": "7호선"
+        }
+    ],
+    "독산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P143",
+            "lnNm": "1호선"
+        }
+    ],
+    "금천구청": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P144",
+            "lnNm": "1호선"
+        }
+    ],
+    "석수": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P145",
+            "lnNm": "1호선"
+        }
+    ],
+    "관악": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P146",
+            "lnNm": "1호선"
+        }
+    ],
+    "안양": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P147",
+            "lnNm": "1호선"
+        }
+    ],
+    "명학": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P148",
+            "lnNm": "1호선"
+        }
+    ],
+    "금정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P149",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "P149",
+            "lnNm": "4호선"
+        }
+    ],
+    "군포": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P150",
+            "lnNm": "1호선"
+        }
+    ],
+    "당정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P151",
+            "lnNm": "1호선"
+        }
+    ],
+    "의왕": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P152",
+            "lnNm": "1호선"
+        }
+    ],
+    "화서": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P154",
+            "lnNm": "1호선"
+        }
+    ],
+    "수원": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P155",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K245",
+            "lnNm": "수인분당"
+        }
+    ],
+    "병점": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P157",
+            "lnNm": "1호선"
+        }
+    ],
+    "서동탄": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P157-2",
+            "lnNm": "1호선"
+        }
+    ],
+    "세마": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P158",
+            "lnNm": "1호선"
+        }
+    ],
+    "오산대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P159",
+            "lnNm": "1호선"
+        }
+    ],
+    "오산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P160",
+            "lnNm": "1호선"
+        }
+    ],
+    "진위": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P161",
+            "lnNm": "1호선"
+        }
+    ],
+    "송탄": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P162",
+            "lnNm": "1호선"
+        }
+    ],
+    "서정리": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P163",
+            "lnNm": "1호선"
+        }
+    ],
+    "평택지제": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P164",
+            "lnNm": "1호선"
+        }
+    ],
+    "평택": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P165",
+            "lnNm": "1호선"
+        }
+    ],
+    "성환": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P166",
+            "lnNm": "1호선"
+        }
+    ],
+    "직산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P167",
+            "lnNm": "1호선"
+        }
+    ],
+    "두정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P168",
+            "lnNm": "1호선"
+        }
+    ],
+    "천안": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P169",
+            "lnNm": "1호선"
+        }
+    ],
+    "봉명": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P170",
+            "lnNm": "1호선"
+        }
+    ],
+    "쌍용(나사렛대)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P171",
+            "lnNm": "1호선"
+        }
+    ],
+    "아산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P172",
+            "lnNm": "1호선"
+        }
+    ],
+    "탕정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P173",
+            "lnNm": "1호선"
+        }
+    ],
+    "배방": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P174",
+            "lnNm": "1호선"
+        }
+    ],
+    "온양온천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P176",
+            "lnNm": "1호선"
+        }
+    ],
+    "신창(순천향대)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "1",
+            "stinCd": "P177",
+            "lnNm": "1호선"
+        }
+    ],
+    "대화": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "0309",
+            "lnNm": "3호선"
+        }
+    ],
+    "원흥": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "1948",
+            "lnNm": "3호선"
+        }
+    ],
+    "주엽": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "310",
+            "lnNm": "3호선"
+        }
+    ],
+    "정발산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "311",
+            "lnNm": "3호선"
+        }
+    ],
+    "마두": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "312",
+            "lnNm": "3호선"
+        }
+    ],
+    "백석": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "313",
+            "lnNm": "3호선"
+        }
+    ],
+    "원당": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "316",
+            "lnNm": "3호선"
+        }
+    ],
+    "삼송": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "3",
+            "stinCd": "318",
+            "lnNm": "3호선"
+        }
+    ],
+    "대공원": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "0437",
+            "lnNm": "4호선"
+        }
+    ],
+    "과천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "0438",
+            "lnNm": "4호선"
+        }
+    ],
+    "인덕원": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "0440",
+            "lnNm": "4호선"
+        }
+    ],
+    "범계": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "0442",
+            "lnNm": "4호선"
+        }
+    ],
+    "대야미": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "0446",
+            "lnNm": "4호선"
+        }
+    ],
+    "반월": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "0447",
+            "lnNm": "4호선"
+        }
+    ],
+    "정부과천청사": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "0509",
+            "lnNm": "4호선"
+        }
+    ],
+    "한대앞": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "1755",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K251",
+            "lnNm": "수인분당"
+        }
+    ],
+    "선바위": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "435",
+            "lnNm": "4호선"
+        }
+    ],
+    "경마공원": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "436",
+            "lnNm": "4호선"
+        }
+    ],
+    "평촌": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "441",
+            "lnNm": "4호선"
+        }
+    ],
+    "산본": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "444",
+            "lnNm": "4호선"
+        }
+    ],
+    "수리산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "445",
+            "lnNm": "4호선"
+        }
+    ],
+    "상록수": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "448",
+            "lnNm": "4호선"
+        }
+    ],
+    "초지": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "K254",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K254",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S26",
+            "lnNm": "서해"
+        }
+    ],
+    "안산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "K255",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K255",
+            "lnNm": "수인분당"
+        }
+    ],
+    "신길온천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "K256",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K256",
+            "lnNm": "수인분당"
+        }
+    ],
+    "정왕": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "K257",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K257",
+            "lnNm": "수인분당"
+        }
+    ],
+    "오이도": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "K258",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K258",
+            "lnNm": "수인분당"
+        }
+    ],
+    "고잔": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "4",
+            "stinCd": "k253",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K253",
+            "lnNm": "수인분당"
+        }
+    ],
+    "수내(한국잡월드)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "1856",
+            "lnNm": "수인분당"
+        }
+    ],
+    "오목천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "1874",
+            "lnNm": "수인분당"
+        }
+    ],
+    "송도": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "1886",
+            "lnNm": "수인분당"
+        }
+    ],
+    "청량리": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K209",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "K117",
+            "lnNm": "경춘"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K209",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "왕십리": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K210",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K210",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "208",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2541",
+            "lnNm": "5호선"
+        }
+    ],
+    "서울숲": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K211",
+            "lnNm": "수인분당"
+        }
+    ],
+    "압구정로데오": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K212",
+            "lnNm": "수인분당"
+        }
+    ],
+    "강남구청": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K213",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2732",
+            "lnNm": "7호선"
+        }
+    ],
+    "선정릉(한국과학창의재단)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K214",
+            "lnNm": "수인분당"
+        }
+    ],
+    "선릉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K215",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "220",
+            "lnNm": "2호선"
+        }
+    ],
+    "한티": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K216",
+            "lnNm": "수인분당"
+        }
+    ],
+    "도곡": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K217",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "334",
+            "lnNm": "3호선"
+        }
+    ],
+    "구룡": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K218",
+            "lnNm": "수인분당"
+        }
+    ],
+    "개포동": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K219",
+            "lnNm": "수인분당"
+        }
+    ],
+    "대모산입구": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K220",
+            "lnNm": "수인분당"
+        }
+    ],
+    "복정(동서울대학)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K222",
+            "lnNm": "수인분당"
+        }
+    ],
+    "가천대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K223",
+            "lnNm": "수인분당"
+        }
+    ],
+    "태평": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K224",
+            "lnNm": "수인분당"
+        }
+    ],
+    "모란": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K225",
+            "lnNm": "수인분당"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2827",
+            "lnNm": "8호선"
+        }
+    ],
+    "야탑": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K226",
+            "lnNm": "수인분당"
+        }
+    ],
+    "이매(성남아트센터)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K227",
+            "lnNm": "수인분당"
+        }
+    ],
+    "서현": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K228",
+            "lnNm": "수인분당"
+        }
+    ],
+    "오리": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K232",
+            "lnNm": "수인분당"
+        }
+    ],
+    "죽전(단국대)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K233",
+            "lnNm": "수인분당"
+        }
+    ],
+    "보정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K234",
+            "lnNm": "수인분당"
+        }
+    ],
+    "신갈": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K236",
+            "lnNm": "수인분당"
+        }
+    ],
+    "상갈(루터대학교)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K238",
+            "lnNm": "수인분당"
+        }
+    ],
+    "청명": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K239",
+            "lnNm": "수인분당"
+        }
+    ],
+    "영통(경희대)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K240",
+            "lnNm": "수인분당"
+        }
+    ],
+    "망포": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K241",
+            "lnNm": "수인분당"
+        }
+    ],
+    "매탄권선": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K242",
+            "lnNm": "수인분당"
+        }
+    ],
+    "수원시청(경기도문화의전당)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K243",
+            "lnNm": "수인분당"
+        }
+    ],
+    "매교": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K244",
+            "lnNm": "수인분당"
+        }
+    ],
+    "고색": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K246",
+            "lnNm": "수인분당"
+        }
+    ],
+    "어천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K248",
+            "lnNm": "수인분당"
+        }
+    ],
+    "야목": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K249",
+            "lnNm": "수인분당"
+        }
+    ],
+    "사리": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K250",
+            "lnNm": "수인분당"
+        }
+    ],
+    "달월": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K259",
+            "lnNm": "수인분당"
+        }
+    ],
+    "월곶": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K260",
+            "lnNm": "수인분당"
+        }
+    ],
+    "소래포구": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K261",
+            "lnNm": "수인분당"
+        }
+    ],
+    "인천논현": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K262",
+            "lnNm": "수인분당"
+        }
+    ],
+    "호구포": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K263",
+            "lnNm": "수인분당"
+        }
+    ],
+    "남동인더스파크": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K264",
+            "lnNm": "수인분당"
+        }
+    ],
+    "연수": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K266",
+            "lnNm": "수인분당"
+        }
+    ],
+    "인하대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K269",
+            "lnNm": "수인분당"
+        }
+    ],
+    "숭의(인하대병원)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K270",
+            "lnNm": "수인분당"
+        }
+    ],
+    "신포": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K1",
+            "stinCd": "K271",
+            "lnNm": "수인분당"
+        }
+    ],
+    "대성리": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "1320",
+            "lnNm": "경춘"
+        }
+    ],
+    "중랑": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "K119",
+            "lnNm": "경춘"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K119",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "상봉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "K120",
+            "lnNm": "경춘"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K120",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "망우": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "K121",
+            "lnNm": "경춘"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "188",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "신내": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P122",
+            "lnNm": "경춘"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2649",
+            "lnNm": "6호선"
+        }
+    ],
+    "갈매": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P123",
+            "lnNm": "경춘"
+        }
+    ],
+    "별내(삼육대학교)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P124",
+            "lnNm": "경춘"
+        }
+    ],
+    "퇴계원": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P125",
+            "lnNm": "경춘"
+        }
+    ],
+    "사릉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P126",
+            "lnNm": "경춘"
+        }
+    ],
+    "평내호평": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P128",
+            "lnNm": "경춘"
+        }
+    ],
+    "천마산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P129",
+            "lnNm": "경춘"
+        }
+    ],
+    "마석": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P130",
+            "lnNm": "경춘"
+        }
+    ],
+    "청평": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P132",
+            "lnNm": "경춘"
+        }
+    ],
+    "상천(호명호수)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P133",
+            "lnNm": "경춘"
+        }
+    ],
+    "가평(자라섬.남이섬)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P134",
+            "lnNm": "경춘"
+        }
+    ],
+    "굴봉산(제이드가든)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P135",
+            "lnNm": "경춘"
+        }
+    ],
+    "백양리(엘리시안강촌)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P136",
+            "lnNm": "경춘"
+        }
+    ],
+    "강촌": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P137",
+            "lnNm": "경춘"
+        }
+    ],
+    "김유정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P138",
+            "lnNm": "경춘"
+        }
+    ],
+    "춘천(한림대)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "P140",
+            "lnNm": "경춘"
+        }
+    ],
+    "남춘천(강원대)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K2",
+            "stinCd": "p139",
+            "lnNm": "경춘"
+        }
+    ],
+    "양원(서울시북부병원)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "0399",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "야당": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "1277",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "신원": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "131",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "국수": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "132",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "강매": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "319",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "곡산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "323",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S10",
+            "lnNm": "서해"
+        }
+    ],
+    "이촌": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K111",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "서빙고": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K112",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "한남": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K113",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "옥수": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K114",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "325",
+            "lnNm": "3호선"
+        }
+    ],
+    "응봉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K115",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "도농": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K124",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "덕소": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K126",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "도심": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K127",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "팔당": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K128",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "운길산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K129",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "양수": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K130",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "아신(아세아연합신학대)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K133",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "오빈": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K134",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "양평": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K135",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2523",
+            "lnNm": "5호선"
+        }
+    ],
+    "원덕(추읍산)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K136",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "지평": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K138",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "효창공원앞": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K311",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2628",
+            "lnNm": "6호선"
+        }
+    ],
+    "서강대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K313",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "가좌": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K315",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "수색": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K317",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "한국항공대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K318",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "행신": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K320",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "능곡": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K321",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S12",
+            "lnNm": "서해"
+        }
+    ],
+    "백마": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K324",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S09",
+            "lnNm": "서해"
+        }
+    ],
+    "풍산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K325",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S08",
+            "lnNm": "서해"
+        }
+    ],
+    "일산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K326",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S07",
+            "lnNm": "서해"
+        }
+    ],
+    "탄현": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K327",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "운정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K329",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "금릉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K330",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "금촌": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K331",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "월롱(서영대학교)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K333",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "파주(두원대학)": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K334",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "문산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K335",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "임진강": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K337",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "도라산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "K338",
+            "lnNm": "경의중앙"
+        }
+    ],
+    "신촌": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K4",
+            "stinCd": "P314",
+            "lnNm": "경의중앙"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "240",
+            "lnNm": "2호선"
+        }
+    ],
+    "이매": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K411",
+            "lnNm": "경강"
+        }
+    ],
+    "삼동": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K412",
+            "lnNm": "경강"
+        }
+    ],
+    "경기광주": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K413",
+            "lnNm": "경강"
+        }
+    ],
+    "초월": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K414",
+            "lnNm": "경강"
+        }
+    ],
+    "곤지암": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K415",
+            "lnNm": "경강"
+        }
+    ],
+    "신둔도예촌": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K416",
+            "lnNm": "경강"
+        }
+    ],
+    "이천": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K417",
+            "lnNm": "경강"
+        }
+    ],
+    "부발": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K418",
+            "lnNm": "경강"
+        }
+    ],
+    "세종대왕릉": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K419",
+            "lnNm": "경강"
+        }
+    ],
+    "여주": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K5",
+            "stinCd": "K420",
+            "lnNm": "경강"
+        }
+    ],
+    "부전": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K110",
+            "lnNm": "동해"
+        }
+    ],
+    "거제해맞이": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K111",
+            "lnNm": "동해"
+        }
+    ],
+    "안락": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K115",
+            "lnNm": "동해"
+        }
+    ],
+    "부산원동": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K116",
+            "lnNm": "동해"
+        }
+    ],
+    "재송": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K117",
+            "lnNm": "동해"
+        }
+    ],
+    "센텀": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K118",
+            "lnNm": "동해"
+        }
+    ],
+    "벡스코": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K119",
+            "lnNm": "동해"
+        }
+    ],
+    "신해운대": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K120",
+            "lnNm": "동해"
+        }
+    ],
+    "송정": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K121",
+            "lnNm": "동해"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2514",
+            "lnNm": "5호선"
+        }
+    ],
+    "오시리아": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K122",
+            "lnNm": "동해"
+        }
+    ],
+    "기장": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K123",
+            "lnNm": "동해"
+        }
+    ],
+    "일광": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K124",
+            "lnNm": "동해"
+        }
+    ],
+    "월내": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K126",
+            "lnNm": "동해"
+        }
+    ],
+    "서생": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K127",
+            "lnNm": "동해"
+        }
+    ],
+    "남창": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K128",
+            "lnNm": "동해"
+        }
+    ],
+    "망양": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K129",
+            "lnNm": "동해"
+        }
+    ],
+    "덕하": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K130",
+            "lnNm": "동해"
+        }
+    ],
+    "개운포": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K131",
+            "lnNm": "동해"
+        }
+    ],
+    "태화강": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K6",
+            "stinCd": "K132",
+            "lnNm": "동해"
+        }
+    ],
+    "구미": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K7",
+            "stinCd": "013",
+            "lnNm": "대경선"
+        }
+    ],
+    "왜관": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K7",
+            "stinCd": "014",
+            "lnNm": "대경선"
+        }
+    ],
+    "경산": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K7",
+            "stinCd": "024",
+            "lnNm": "대경선"
+        }
+    ],
+    "사곡": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K7",
+            "stinCd": "312",
+            "lnNm": "대경선"
+        }
+    ],
+    "서대구역": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "K7",
+            "stinCd": "K145",
+            "lnNm": "대경선"
+        }
+    ],
+    "김포공항역": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S13",
+            "lnNm": "서해"
+        }
+    ],
+    "원종": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S14",
+            "lnNm": "서해"
+        }
+    ],
+    "부천종합운동장역": [
+        {
+            "railOprIsttCd": "KR",
+            "lnCd": "WS",
+            "stinCd": "S15",
+            "lnNm": "서해"
+        }
+    ],
+    "진접": [
+        {
+            "railOprIsttCd": "NU",
+            "lnCd": "4",
+            "stinCd": "405",
+            "lnNm": "4호선"
+        }
+    ],
+    "오남": [
+        {
+            "railOprIsttCd": "NU",
+            "lnCd": "4",
+            "stinCd": "406",
+            "lnNm": "4호선"
+        }
+    ],
+    "별내별가람": [
+        {
+            "railOprIsttCd": "NU",
+            "lnCd": "4",
+            "stinCd": "408",
+            "lnNm": "4호선"
+        }
+    ],
+    "별내": [
+        {
+            "railOprIsttCd": "NU",
+            "lnCd": "8",
+            "stinCd": "2804",
+            "lnNm": "8호선"
+        }
+    ],
+    "다산": [
+        {
+            "railOprIsttCd": "NU",
+            "lnCd": "8",
+            "stinCd": "2806",
+            "lnNm": "8호선"
+        }
+    ],
+    "종각": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "152",
+            "lnNm": "1호선"
+        }
+    ],
+    "종로3가": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "153",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "319",
+            "lnNm": "3호선"
+        }
+    ],
+    "종로5가": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "154",
+            "lnNm": "1호선"
+        }
+    ],
+    "동대문": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "155",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "421",
+            "lnNm": "4호선"
+        }
+    ],
+    "신설동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "156",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "246",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S122",
+            "lnNm": "우이신설"
+        }
+    ],
+    "제기동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "157",
+            "lnNm": "1호선"
+        }
+    ],
+    "청량리(서울시립대입구)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "158",
+            "lnNm": "1호선"
+        }
+    ],
+    "동묘앞": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "1",
+            "stinCd": "159",
+            "lnNm": "1호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2637",
+            "lnNm": "6호선"
+        }
+    ],
+    "을지로입구": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "202",
+            "lnNm": "2호선"
+        }
+    ],
+    "을지로3가": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "203",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "320",
+            "lnNm": "3호선"
+        }
+    ],
+    "을지로4가": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "204",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2536",
+            "lnNm": "5호선"
+        }
+    ],
+    "동대문역사문화공원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "205",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "422",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2537",
+            "lnNm": "5호선"
+        }
+    ],
+    "신당": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "206",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2636",
+            "lnNm": "6호선"
+        }
+    ],
+    "상왕십리": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "207",
+            "lnNm": "2호선"
+        }
+    ],
+    "한양대": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "209",
+            "lnNm": "2호선"
+        }
+    ],
+    "뚝섬": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "210",
+            "lnNm": "2호선"
+        }
+    ],
+    "성수": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "211",
+            "lnNm": "2호선"
+        }
+    ],
+    "건대입구": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "212",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2729",
+            "lnNm": "7호선"
+        }
+    ],
+    "구의(광진구청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "213",
+            "lnNm": "2호선"
+        }
+    ],
+    "강변(동서울터미널)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "214",
+            "lnNm": "2호선"
+        }
+    ],
+    "잠실나루": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "215",
+            "lnNm": "2호선"
+        }
+    ],
+    "잠실(송파구청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "216",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2815",
+            "lnNm": "8호선"
+        }
+    ],
+    "잠실새내": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "217",
+            "lnNm": "2호선"
+        }
+    ],
+    "삼성(무역센터)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "219",
+            "lnNm": "2호선"
+        }
+    ],
+    "역삼": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "221",
+            "lnNm": "2호선"
+        }
+    ],
+    "교대(법원.검찰청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "223",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "330",
+            "lnNm": "3호선"
+        }
+    ],
+    "서초": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "224",
+            "lnNm": "2호선"
+        }
+    ],
+    "방배": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "225",
+            "lnNm": "2호선"
+        }
+    ],
+    "사당": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "226",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "433",
+            "lnNm": "4호선"
+        }
+    ],
+    "낙성대": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "227",
+            "lnNm": "2호선"
+        }
+    ],
+    "서울대입구(관악구청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "228",
+            "lnNm": "2호선"
+        }
+    ],
+    "봉천": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "229",
+            "lnNm": "2호선"
+        }
+    ],
+    "신림": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "230",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S408",
+            "lnNm": "신림선"
+        }
+    ],
+    "신대방": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "231",
+            "lnNm": "2호선"
+        }
+    ],
+    "구로디지털단지": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "232",
+            "lnNm": "2호선"
+        }
+    ],
+    "대림(구로구청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "233",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2746",
+            "lnNm": "7호선"
+        }
+    ],
+    "까치산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "234-4",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2519",
+            "lnNm": "5호선"
+        }
+    ],
+    "문래": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "235",
+            "lnNm": "2호선"
+        }
+    ],
+    "영등포구청": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "236",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2524",
+            "lnNm": "5호선"
+        }
+    ],
+    "당산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "237",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0913",
+            "lnNm": "9호선"
+        }
+    ],
+    "합정": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "238",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2623",
+            "lnNm": "6호선"
+        }
+    ],
+    "이대": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "241",
+            "lnNm": "2호선"
+        }
+    ],
+    "아현": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "242",
+            "lnNm": "2호선"
+        }
+    ],
+    "충정로(경기대입구)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "243",
+            "lnNm": "2호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2532",
+            "lnNm": "5호선"
+        }
+    ],
+    "용답": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "244",
+            "lnNm": "2호선"
+        }
+    ],
+    "신답": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "245",
+            "lnNm": "2호선"
+        }
+    ],
+    "도림천": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "247",
+            "lnNm": "2호선"
+        }
+    ],
+    "양천구청": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "248",
+            "lnNm": "2호선"
+        }
+    ],
+    "신정네거리": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "249",
+            "lnNm": "2호선"
+        }
+    ],
+    "용두(동대문구청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "2",
+            "stinCd": "250",
+            "lnNm": "2호선"
+        }
+    ],
+    "지축": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "309",
+            "lnNm": "3호선"
+        }
+    ],
+    "구파발": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "310",
+            "lnNm": "3호선"
+        }
+    ],
+    "불광": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "312",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2613",
+            "lnNm": "6호선"
+        }
+    ],
+    "녹번": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "313",
+            "lnNm": "3호선"
+        }
+    ],
+    "홍제": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "314",
+            "lnNm": "3호선"
+        }
+    ],
+    "무악재": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "315",
+            "lnNm": "3호선"
+        }
+    ],
+    "독립문": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "316",
+            "lnNm": "3호선"
+        }
+    ],
+    "경복궁(정부서울청사)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "317",
+            "lnNm": "3호선"
+        }
+    ],
+    "안국": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "318",
+            "lnNm": "3호선"
+        }
+    ],
+    "충무로": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "321",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "423",
+            "lnNm": "4호선"
+        }
+    ],
+    "동대입구": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "322",
+            "lnNm": "3호선"
+        }
+    ],
+    "약수": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "323",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2634",
+            "lnNm": "6호선"
+        }
+    ],
+    "금호": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "324",
+            "lnNm": "3호선"
+        }
+    ],
+    "압구정": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "326",
+            "lnNm": "3호선"
+        }
+    ],
+    "잠원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "328",
+            "lnNm": "3호선"
+        }
+    ],
+    "고속터미널": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "329",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2736",
+            "lnNm": "7호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0923",
+            "lnNm": "9호선"
+        }
+    ],
+    "남부터미널(예술의전당)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "331",
+            "lnNm": "3호선"
+        }
+    ],
+    "매봉": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "333",
+            "lnNm": "3호선"
+        }
+    ],
+    "대치": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "335",
+            "lnNm": "3호선"
+        }
+    ],
+    "학여울": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "336",
+            "lnNm": "3호선"
+        }
+    ],
+    "대청": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "337",
+            "lnNm": "3호선"
+        }
+    ],
+    "일원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "338",
+            "lnNm": "3호선"
+        }
+    ],
+    "가락시장": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "340",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2818",
+            "lnNm": "8호선"
+        }
+    ],
+    "경찰병원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "341",
+            "lnNm": "3호선"
+        }
+    ],
+    "오금": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "3",
+            "stinCd": "342",
+            "lnNm": "3호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2558",
+            "lnNm": "5호선"
+        }
+    ],
+    "불암산(당고개)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "409",
+            "lnNm": "4호선"
+        }
+    ],
+    "상계": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "410",
+            "lnNm": "4호선"
+        }
+    ],
+    "노원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "411",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2715",
+            "lnNm": "7호선"
+        }
+    ],
+    "쌍문": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "413",
+            "lnNm": "4호선"
+        }
+    ],
+    "수유(강북구청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "414",
+            "lnNm": "4호선"
+        }
+    ],
+    "미아": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "415",
+            "lnNm": "4호선"
+        }
+    ],
+    "미아사거리": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "416",
+            "lnNm": "4호선"
+        }
+    ],
+    "길음": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "417",
+            "lnNm": "4호선"
+        }
+    ],
+    "성신여대입구(돈암)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "418",
+            "lnNm": "4호선"
+        }
+    ],
+    "한성대입구(삼선교)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "419",
+            "lnNm": "4호선"
+        }
+    ],
+    "혜화": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "420",
+            "lnNm": "4호선"
+        }
+    ],
+    "명동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "424",
+            "lnNm": "4호선"
+        }
+    ],
+    "회현(남대문시장)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "425",
+            "lnNm": "4호선"
+        }
+    ],
+    "숙대입구(갈월)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "427",
+            "lnNm": "4호선"
+        }
+    ],
+    "삼각지": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "428",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2629",
+            "lnNm": "6호선"
+        }
+    ],
+    "신용산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "429",
+            "lnNm": "4호선"
+        }
+    ],
+    "이촌(국립중앙박물관)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "430",
+            "lnNm": "4호선"
+        }
+    ],
+    "동작(현충원)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "431",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0920",
+            "lnNm": "9호선"
+        }
+    ],
+    "총신대입구(이수)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "432",
+            "lnNm": "4호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2738",
+            "lnNm": "7호선"
+        }
+    ],
+    "남태령": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "4",
+            "stinCd": "434",
+            "lnNm": "4호선"
+        }
+    ],
+    "방화": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2511",
+            "lnNm": "5호선"
+        }
+    ],
+    "개화산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2512",
+            "lnNm": "5호선"
+        }
+    ],
+    "마곡": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2515",
+            "lnNm": "5호선"
+        }
+    ],
+    "발산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2516",
+            "lnNm": "5호선"
+        }
+    ],
+    "우장산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2517",
+            "lnNm": "5호선"
+        }
+    ],
+    "화곡": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2518",
+            "lnNm": "5호선"
+        }
+    ],
+    "신정(은행정)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2520",
+            "lnNm": "5호선"
+        }
+    ],
+    "목동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2521",
+            "lnNm": "5호선"
+        }
+    ],
+    "오목교(목동운동장앞)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2522",
+            "lnNm": "5호선"
+        }
+    ],
+    "영등포시장": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2525",
+            "lnNm": "5호선"
+        }
+    ],
+    "여의도": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2527",
+            "lnNm": "5호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0915",
+            "lnNm": "9호선"
+        }
+    ],
+    "여의나루": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2528",
+            "lnNm": "5호선"
+        }
+    ],
+    "마포": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2529",
+            "lnNm": "5호선"
+        }
+    ],
+    "애오개": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2531",
+            "lnNm": "5호선"
+        }
+    ],
+    "서대문": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2533",
+            "lnNm": "5호선"
+        }
+    ],
+    "광화문(세종문화회관)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2534",
+            "lnNm": "5호선"
+        }
+    ],
+    "종로3가(탑골공원)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2535",
+            "lnNm": "5호선"
+        }
+    ],
+    "청구": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2538",
+            "lnNm": "5호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2635",
+            "lnNm": "6호선"
+        }
+    ],
+    "신금호": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2539",
+            "lnNm": "5호선"
+        }
+    ],
+    "행당": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2540",
+            "lnNm": "5호선"
+        }
+    ],
+    "마장": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2542",
+            "lnNm": "5호선"
+        }
+    ],
+    "답십리": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2543",
+            "lnNm": "5호선"
+        }
+    ],
+    "장한평": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2544",
+            "lnNm": "5호선"
+        }
+    ],
+    "군자(능동)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2545",
+            "lnNm": "5호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2727",
+            "lnNm": "7호선"
+        }
+    ],
+    "아차산(어린이대공원후문)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2546",
+            "lnNm": "5호선"
+        }
+    ],
+    "광나루(장신대)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2547",
+            "lnNm": "5호선"
+        }
+    ],
+    "천호(풍납토성)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2548",
+            "lnNm": "5호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2812",
+            "lnNm": "8호선"
+        }
+    ],
+    "강동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2549",
+            "lnNm": "5호선"
+        }
+    ],
+    "길동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2550",
+            "lnNm": "5호선"
+        }
+    ],
+    "굽은다리(강동구민회관앞)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2551",
+            "lnNm": "5호선"
+        }
+    ],
+    "명일": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2552",
+            "lnNm": "5호선"
+        }
+    ],
+    "고덕": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2553",
+            "lnNm": "5호선"
+        }
+    ],
+    "상일동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2554",
+            "lnNm": "5호선"
+        }
+    ],
+    "둔촌동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2555",
+            "lnNm": "5호선"
+        }
+    ],
+    "올림픽공원(한국체대)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2556",
+            "lnNm": "5호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "936",
+            "lnNm": "9호선"
+        }
+    ],
+    "방이": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2557",
+            "lnNm": "5호선"
+        }
+    ],
+    "개롱": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2559",
+            "lnNm": "5호선"
+        }
+    ],
+    "거여": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2560",
+            "lnNm": "5호선"
+        }
+    ],
+    "마천": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2561",
+            "lnNm": "5호선"
+        }
+    ],
+    "강일": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2562",
+            "lnNm": "5호선"
+        }
+    ],
+    "미사": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2563",
+            "lnNm": "5호선"
+        }
+    ],
+    "하남풍산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2564",
+            "lnNm": "5호선"
+        }
+    ],
+    "하남시청(덕풍.신장)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2565",
+            "lnNm": "5호선"
+        }
+    ],
+    "하남검단산역": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "5",
+            "stinCd": "2566",
+            "lnNm": "5호선"
+        }
+    ],
+    "응암": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2611",
+            "lnNm": "6호선"
+        }
+    ],
+    "역촌": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2612",
+            "lnNm": "6호선"
+        }
+    ],
+    "독바위": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2614",
+            "lnNm": "6호선"
+        }
+    ],
+    "구산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2616",
+            "lnNm": "6호선"
+        }
+    ],
+    "새절(신사)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2617",
+            "lnNm": "6호선"
+        }
+    ],
+    "증산(명지대앞)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2618",
+            "lnNm": "6호선"
+        }
+    ],
+    "월드컵경기장(성산)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2620",
+            "lnNm": "6호선"
+        }
+    ],
+    "마포구청": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2621",
+            "lnNm": "6호선"
+        }
+    ],
+    "망원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2622",
+            "lnNm": "6호선"
+        }
+    ],
+    "상수": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2624",
+            "lnNm": "6호선"
+        }
+    ],
+    "광흥창(서강)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2625",
+            "lnNm": "6호선"
+        }
+    ],
+    "대흥(서강대앞)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2626",
+            "lnNm": "6호선"
+        }
+    ],
+    "녹사평(용산구청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2630",
+            "lnNm": "6호선"
+        }
+    ],
+    "이태원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2631",
+            "lnNm": "6호선"
+        }
+    ],
+    "한강진": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2632",
+            "lnNm": "6호선"
+        }
+    ],
+    "버티고개": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2633",
+            "lnNm": "6호선"
+        }
+    ],
+    "창신": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2638",
+            "lnNm": "6호선"
+        }
+    ],
+    "보문": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2639",
+            "lnNm": "6호선"
+        },
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S121",
+            "lnNm": "우이신설"
+        }
+    ],
+    "안암(고대병원앞)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2640",
+            "lnNm": "6호선"
+        }
+    ],
+    "고려대(종암)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2641",
+            "lnNm": "6호선"
+        }
+    ],
+    "월곡(동덕여대)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2642",
+            "lnNm": "6호선"
+        }
+    ],
+    "상월곡(한국과학기술연구원)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2643",
+            "lnNm": "6호선"
+        }
+    ],
+    "돌곶이": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2644",
+            "lnNm": "6호선"
+        }
+    ],
+    "태릉입구": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2646",
+            "lnNm": "6호선"
+        },
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2719",
+            "lnNm": "7호선"
+        }
+    ],
+    "화랑대(서울여대입구)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2647",
+            "lnNm": "6호선"
+        }
+    ],
+    "봉화산(서울의료원)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "6",
+            "stinCd": "2648",
+            "lnNm": "6호선"
+        }
+    ],
+    "장암": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2711",
+            "lnNm": "7호선"
+        }
+    ],
+    "수락산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2713",
+            "lnNm": "7호선"
+        }
+    ],
+    "마들": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2714",
+            "lnNm": "7호선"
+        }
+    ],
+    "중계": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2716",
+            "lnNm": "7호선"
+        }
+    ],
+    "하계": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2717",
+            "lnNm": "7호선"
+        }
+    ],
+    "공릉(서울과학기술대)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2718",
+            "lnNm": "7호선"
+        }
+    ],
+    "먹골": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2720",
+            "lnNm": "7호선"
+        }
+    ],
+    "중화": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2721",
+            "lnNm": "7호선"
+        }
+    ],
+    "상봉(시외버스터미널)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2722",
+            "lnNm": "7호선"
+        }
+    ],
+    "면목": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2723",
+            "lnNm": "7호선"
+        }
+    ],
+    "사가정": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2724",
+            "lnNm": "7호선"
+        }
+    ],
+    "용마산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2725",
+            "lnNm": "7호선"
+        }
+    ],
+    "중곡": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2726",
+            "lnNm": "7호선"
+        }
+    ],
+    "어린이대공원(세종대)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2728",
+            "lnNm": "7호선"
+        }
+    ],
+    "자양(뚝섬한강공원)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2730",
+            "lnNm": "7호선"
+        }
+    ],
+    "청담": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2731",
+            "lnNm": "7호선"
+        }
+    ],
+    "학동": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2733",
+            "lnNm": "7호선"
+        }
+    ],
+    "반포": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2735",
+            "lnNm": "7호선"
+        }
+    ],
+    "내방": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2737",
+            "lnNm": "7호선"
+        }
+    ],
+    "남성": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2739",
+            "lnNm": "7호선"
+        }
+    ],
+    "숭실대입구(살피재)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2740",
+            "lnNm": "7호선"
+        }
+    ],
+    "상도": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2741",
+            "lnNm": "7호선"
+        }
+    ],
+    "장승배기": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2742",
+            "lnNm": "7호선"
+        }
+    ],
+    "신대방삼거리": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2743",
+            "lnNm": "7호선"
+        }
+    ],
+    "보라매": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2744",
+            "lnNm": "7호선"
+        },
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S404",
+            "lnNm": "신림선"
+        }
+    ],
+    "신풍": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2745",
+            "lnNm": "7호선"
+        }
+    ],
+    "남구로": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2747",
+            "lnNm": "7호선"
+        }
+    ],
+    "철산": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2749",
+            "lnNm": "7호선"
+        }
+    ],
+    "광명사거리": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2750",
+            "lnNm": "7호선"
+        }
+    ],
+    "천왕": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2751",
+            "lnNm": "7호선"
+        }
+    ],
+    "온수(성공회대입구)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "7",
+            "stinCd": "2752",
+            "lnNm": "7호선"
+        }
+    ],
+    "암사역사공원": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2809",
+            "lnNm": "8호선"
+        }
+    ],
+    "암사": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2811",
+            "lnNm": "8호선"
+        }
+    ],
+    "강동구청": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2813",
+            "lnNm": "8호선"
+        }
+    ],
+    "몽촌토성(평화의문)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2814",
+            "lnNm": "8호선"
+        }
+    ],
+    "석촌": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2816",
+            "lnNm": "8호선"
+        },
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "933",
+            "lnNm": "9호선"
+        }
+    ],
+    "송파": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2817",
+            "lnNm": "8호선"
+        }
+    ],
+    "문정": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2819",
+            "lnNm": "8호선"
+        }
+    ],
+    "장지": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2820",
+            "lnNm": "8호선"
+        }
+    ],
+    "복정": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2821",
+            "lnNm": "8호선"
+        }
+    ],
+    "산성": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2822",
+            "lnNm": "8호선"
+        }
+    ],
+    "남한산성입구(성남법원.검찰청)": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2823",
+            "lnNm": "8호선"
+        }
+    ],
+    "단대오거리": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2824",
+            "lnNm": "8호선"
+        }
+    ],
+    "수진": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2826",
+            "lnNm": "8호선"
+        }
+    ],
+    "남위례": [
+        {
+            "railOprIsttCd": "S1",
+            "lnCd": "8",
+            "stinCd": "2828",
+            "lnNm": "8호선"
+        }
+    ],
+    "개화": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0901",
+            "lnNm": "9호선"
+        }
+    ],
+    "공항시장": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0903",
+            "lnNm": "9호선"
+        }
+    ],
+    "신방화": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0904",
+            "lnNm": "9호선"
+        }
+    ],
+    "양천향교": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0906",
+            "lnNm": "9호선"
+        }
+    ],
+    "가양": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0907",
+            "lnNm": "9호선"
+        }
+    ],
+    "증미": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0908",
+            "lnNm": "9호선"
+        }
+    ],
+    "등촌": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0909",
+            "lnNm": "9호선"
+        }
+    ],
+    "염창": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0910",
+            "lnNm": "9호선"
+        }
+    ],
+    "신목동": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0911",
+            "lnNm": "9호선"
+        }
+    ],
+    "선유도": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0912",
+            "lnNm": "9호선"
+        }
+    ],
+    "국회의사당": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0914",
+            "lnNm": "9호선"
+        }
+    ],
+    "샛강": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0916",
+            "lnNm": "9호선"
+        },
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S401",
+            "lnNm": "신림선"
+        }
+    ],
+    "노들": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0918",
+            "lnNm": "9호선"
+        }
+    ],
+    "흑석(중앙대입구)": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0919",
+            "lnNm": "9호선"
+        }
+    ],
+    "구반포": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0921",
+            "lnNm": "9호선"
+        }
+    ],
+    "신반포": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0922",
+            "lnNm": "9호선"
+        }
+    ],
+    "사평": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "0924",
+            "lnNm": "9호선"
+        }
+    ],
+    "언주": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "926",
+            "lnNm": "9호선"
+        }
+    ],
+    "선정릉": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "927",
+            "lnNm": "9호선"
+        }
+    ],
+    "삼성중앙": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "928",
+            "lnNm": "9호선"
+        }
+    ],
+    "봉은사": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "929",
+            "lnNm": "9호선"
+        }
+    ],
+    "삼전": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "931",
+            "lnNm": "9호선"
+        }
+    ],
+    "석촌고분": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "932",
+            "lnNm": "9호선"
+        }
+    ],
+    "송파나루": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "934",
+            "lnNm": "9호선"
+        }
+    ],
+    "한성백제": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "935",
+            "lnNm": "9호선"
+        }
+    ],
+    "둔촌오륜": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "937",
+            "lnNm": "9호선"
+        }
+    ],
+    "중앙보훈병원": [
+        {
+            "railOprIsttCd": "S9",
+            "lnCd": "9",
+            "stinCd": "938",
+            "lnNm": "9호선"
+        }
+    ],
+    "서울지방병무청": [
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S403",
+            "lnNm": "신림선"
+        }
+    ],
+    "보라매공원": [
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S405",
+            "lnNm": "신림선"
+        }
+    ],
+    "보라매병원": [
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S406",
+            "lnNm": "신림선"
+        }
+    ],
+    "당곡": [
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S407",
+            "lnNm": "신림선"
+        }
+    ],
+    "서원": [
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S409",
+            "lnNm": "신림선"
+        }
+    ],
+    "서울대벤처타운": [
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S410",
+            "lnNm": "신림선"
+        }
+    ],
+    "관악산(서울대)": [
+        {
+            "railOprIsttCd": "SL",
+            "lnCd": "L1",
+            "stinCd": "S411",
+            "lnNm": "신림선"
+        }
+    ],
+    "동탄": [
+        {
+            "railOprIsttCd": "SR",
+            "lnCd": "A",
+            "stinCd": "9010",
+            "lnNm": "GTX-A"
+        }
+    ],
+    "소새울": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S17",
+            "lnNm": "서해"
+        }
+    ],
+    "시흥대야": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S18",
+            "lnNm": "서해"
+        }
+    ],
+    "신천": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S19",
+            "lnNm": "서해"
+        }
+    ],
+    "신현": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S20",
+            "lnNm": "서해"
+        }
+    ],
+    "시흥시청": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S22",
+            "lnNm": "서해"
+        }
+    ],
+    "시흥능곡": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S23",
+            "lnNm": "서해"
+        }
+    ],
+    "달미": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S24",
+            "lnNm": "서해"
+        }
+    ],
+    "선부": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S25",
+            "lnNm": "서해"
+        }
+    ],
+    "시우": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S27",
+            "lnNm": "서해"
+        }
+    ],
+    "원시": [
+        {
+            "railOprIsttCd": "SW",
+            "lnCd": "WS",
+            "stinCd": "S28",
+            "lnNm": "서해"
+        }
+    ],
+    "북한산우이": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S110",
+            "lnNm": "우이신설"
+        }
+    ],
+    "솔밭공원": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S111",
+            "lnNm": "우이신설"
+        }
+    ],
+    "4.19민주묘지": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S112",
+            "lnNm": "우이신설"
+        }
+    ],
+    "가오리": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S113",
+            "lnNm": "우이신설"
+        }
+    ],
+    "화계": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S114",
+            "lnNm": "우이신설"
+        }
+    ],
+    "삼양": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S115",
+            "lnNm": "우이신설"
+        }
+    ],
+    "삼양사거리": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S116",
+            "lnNm": "우이신설"
+        }
+    ],
+    "솔샘": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S117",
+            "lnNm": "우이신설"
+        }
+    ],
+    "북한산보국문": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S118",
+            "lnNm": "우이신설"
+        }
+    ],
+    "정릉": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S119",
+            "lnNm": "우이신설"
+        }
+    ],
+    "성신여대입구": [
+        {
+            "railOprIsttCd": "UI",
+            "lnCd": "UI",
+            "stinCd": "S120",
+            "lnNm": "우이신설"
+        }
+    ],
+    "발곡": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0110",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "범골": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0112",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "경전철의정부": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0113",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "의정부시청": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0114",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "흥선": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0115",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "의정부중앙": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0117",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "동오": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0118",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "새말": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0119",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "경기도청북부청사": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0120",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "효자": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0121",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "곤제": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0122",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "어룡(용현산업단지)": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0123",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "송산": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0124",
+            "lnNm": "의정부경전철"
+        }
+    ],
+    "탑석": [
+        {
+            "railOprIsttCd": "UL",
+            "lnCd": "U1",
+            "stinCd": "0125",
+            "lnNm": "의정부경전철"
+        }
+    ]
+}

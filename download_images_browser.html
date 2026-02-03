@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>역 이미지 일괄 다운로드</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; padding: 20px; max-width: 600px; margin: 0 auto; }
+        h1 { font-size: 1.2rem; }
+        p { color: #666; }
+        button { padding: 12px 24px; font-size: 16px; cursor: pointer; background: #667eea; color: #fff; border: none; border-radius: 8px; }
+        button:disabled { background: #ccc; cursor: not-allowed; }
+        #log { margin-top: 20px; padding: 12px; background: #f5f5f5; border-radius: 8px; max-height: 300px; overflow-y: auto; font-size: 13px; }
+        .ok { color: green; }
+        .err { color: red; }
+    </style>
+</head>
+<body>
+    <h1>역 편의시설 이미지 일괄 다운로드</h1>
+    <p>아래 버튼을 누르면 station_prpr_mapping_ok.json에 있는 85개 역 이미지를 순서대로 다운로드합니다.<br>
+    <strong>hc.kric.go.kr을 먼저 열어둔 상태</strong>에서 이 페이지를 사용하면 성공 가능성이 높습니다.</p>
+    <button id="btn">다운로드 시작</button>
+    <div id="log"></div>
+
+    <script>
+        const BASE_URL = 'https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv';
+
+        function log(msg, isErr) {
+            const el = document.getElementById('log');
+            const span = document.createElement('div');
+            span.className = isErr ? 'err' : 'ok';
+            span.textContent = msg;
+            el.appendChild(span);
+            el.scrollTop = el.scrollHeight;
+        }
+
+        function downloadBlob(blob, filename) {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(a.href);
+        }
+
+        async function run() {
+            const btn = document.getElementById('btn');
+            btn.disabled = true;
+
+            let mapping;
+            try {
+                const res = await fetch('station_prpr_mapping_ok.json');
+                mapping = await res.json();
+            } catch (e) {
+                log('station_prpr_mapping_ok.json 로드 실패: ' + e.message, true);
+                btn.disabled = false;
+                return;
+            }
+
+            const entries = Object.entries(mapping);
+            log(`총 ${entries.length}개 역 이미지 다운로드 시작...`);
+
+            let ok = 0, fail = 0;
+            for (let i = 0; i < entries.length; i++) {
+                const [key, info] = entries[i];
+                const rail = info.railOprIsttCd;
+                const ln = info.lnCd;
+                const prpr = info.prprStinCd;
+                const name = info.stinNm;
+                const url = `${BASE_URL}/${rail}/${rail}_${ln}_${prpr}.png`;
+                const filename = `${name.replace(/\//g, '_').replace(/\\/g, '_')}_${rail}_${ln}.png`;
+
+                try {
+                    const r = await fetch(url, { mode: 'cors', credentials: 'omit' });
+                    if (r.ok && r.headers.get('content-length') > 500) {
+                        const blob = await r.blob();
+                        downloadBlob(blob, filename);
+                        ok++;
+                        log(`[${i + 1}/${entries.length}] ${name} (${rail}_${ln})`);
+                    } else {
+                        fail++;
+                        log(`[${i + 1}] 실패: ${name} (${r.status})`, true);
+                    }
+                } catch (e) {
+                    fail++;
+                    log(`[${i + 1}] 오류: ${name} - ${e.message}`, true);
+                }
+
+                await new Promise(r => setTimeout(r, 400));
+            }
+
+            log(`완료: 성공 ${ok}, 실패 ${fail}`);
+            btn.disabled = false;
+        }
+
+        document.getElementById('btn').addEventListener('click', run);
+    </script>
+</body>
+</html>

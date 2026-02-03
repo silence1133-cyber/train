@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>역 이미지 다운로드 링크</title>
+  <style>
+    body { font-family: "Malgun Gothic"; padding: 20px; }
+    a { display: block; padding: 6px 0; color: #667eea; }
+    a:hover { text-decoration: underline; }
+    button {
+      margin: 15px 0;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      background: #667eea;
+      color: #fff;
+      cursor: pointer;
+      font-size: 15px;
+    }
+    button:disabled {
+      background: #b3b7ff;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>역 편의시설 이미지 다운로드 (85개)</h1>
+  <p>각 링크를 클릭하면 해당 역 이미지가 다운로드됩니다. (또는 우클릭 → 다른 이름으로 링크 저장)</p>
+  <p><button id="openAllBtn">한 번에 링크 열기 (팝업 허용 필요)</button></p>
+  <script>
+    const btn = document.getElementById('openAllBtn');
+    btn.addEventListener('click', () => {
+      const links = Array.from(document.querySelectorAll('a[data-link="station"]'));
+      if (!links.length) return;
+      btn.disabled = true;
+      let index = 0;
+      const timer = setInterval(() => {
+        if (index >= links.length) {
+          clearInterval(timer);
+          btn.disabled = false;
+          return;
+        }
+        const link = links[index];
+        const win = window.open(link.href, '_blank');
+        if (!win) {
+          alert('팝업이 차단되었습니다. 브라우저에서 팝업 허용 후 다시 시도하세요.');
+          clearInterval(timer);
+          btn.disabled = false;
+          return;
+        }
+        setTimeout(() => {
+          try {
+            if (win && !win.closed) {
+              win.close();
+            }
+          } catch (e) {
+            console.warn('탭 자동 종료 실패:', e);
+          }
+        }, 3500);
+        index += 1;
+      }, 1500);
+    });
+  </script>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_1_0515.png" download="종로3가_S1_1.png" target="_blank">종로3가 (S1_1)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_1_0155.png" download="동대문_S1_1.png" target="_blank">동대문 (S1_1)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0347.png" download="시청_S1_2.png" target="_blank">시청 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0314.png" download="성수_S1_2.png" target="_blank">성수 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0023.png" download="강변_S1_2.png" target="_blank">강변 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0497.png" download="잠실_S1_2.png" target="_blank">잠실 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0130.png" download="대림_S1_2.png" target="_blank">대림 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0421.png" download="영등포구청_S1_2.png" target="_blank">영등포구청 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0366.png" download="신촌_S1_2.png" target="_blank">신촌 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0017.png" download="강남_S1_2.png" target="_blank">강남 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0361.png" download="신림_S1_2.png" target="_blank">신림 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0266.png" download="삼성_S1_2.png" target="_blank">삼성 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_2_0367.png" download="신설동_S1_2.png" target="_blank">신설동 (S1_2)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_3_0142.png" download="도곡_S1_3.png" target="_blank">도곡 (S1_3)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_3_0400.png" download="양재_S1_3.png" target="_blank">양재 (S1_3)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_3_0048.png" download="고속터미널_S1_3.png" target="_blank">고속터미널 (S1_3)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_3_0434.png" download="옥수_S1_3.png" target="_blank">옥수 (S1_3)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_3_0150.png" download="독립문_S1_3.png" target="_blank">독립문 (S1_3)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_3_0078.png" download="구파발_S1_3.png" target="_blank">구파발 (S1_3)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_4_0115.png" download="노원_S1_4.png" target="_blank">노원 (S1_4)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_4_0156.png" download="동대문역사문화공원_S1_4.png" target="_blank">동대문역사문화공원 (S1_4)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_4_0096.png" download="길음_S1_4.png" target="_blank">길음 (S1_4)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_4_0212.png" download="미아사거리_S1_4.png" target="_blank">미아사거리 (S1_4)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_4_0477.png" download="이촌_S1_4.png" target="_blank">이촌 (S1_4)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_4_0296.png" download="서울역_S1_4.png" target="_blank">서울역 (S1_4)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_4_0257.png" download="사당_S1_4.png" target="_blank">사당 (S1_4)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0549.png" download="청구_S1_5.png" target="_blank">청구 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0482.png" download="하남시청_S1_5.png" target="_blank">하남시청 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0489.png" download="하남검단산역_S1_5.png" target="_blank">하남검단산역 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0436.png" download="강일_S1_5.png" target="_blank">강일 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0475.png" download="미사_S1_5.png" target="_blank">미사 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0020.png" download="강동_S1_5.png" target="_blank">강동 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0046.png" download="고덕_S1_5.png" target="_blank">고덕 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0411.png" download="여의나루_S1_5.png" target="_blank">여의나루 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0156.png" download="동대문역사문화공원_S1_5.png" target="_blank">동대문역사문화공원 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0478.png" download="하남풍산_S1_5.png" target="_blank">하남풍산 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0441.png" download="왕십리_S1_5.png" target="_blank">왕십리 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0066.png" download="광화문_S1_5.png" target="_blank">광화문 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0546.png" download="천호_S1_5.png" target="_blank">천호 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0082.png" download="군자_S1_5.png" target="_blank">군자 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0054.png" download="공덕_S1_5.png" target="_blank">공덕 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0124.png" download="답십리_S1_5.png" target="_blank">답십리 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0351.png" download="신길_S1_5.png" target="_blank">신길 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0100.png" download="까치산_S1_5.png" target="_blank">까치산 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0385.png" download="아차산_S1_5.png" target="_blank">아차산 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0449.png" download="우장산_S1_5.png" target="_blank">우장산 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0564.png" download="충정로_S1_5.png" target="_blank">충정로 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0203.png" download="목동_S1_5.png" target="_blank">목동 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0421.png" download="영등포구청_S1_5.png" target="_blank">영등포구청 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0412.png" download="여의도_S1_5.png" target="_blank">여의도 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0030.png" download="거여_S1_5.png" target="_blank">거여 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0438.png" download="올림픽공원_S1_5.png" target="_blank">올림픽공원 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_5_0099.png" download="김포공항_S1_5.png" target="_blank">김포공항 (S1_5)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0263.png" download="삼각지_S1_6.png" target="_blank">삼각지 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0462.png" download="월드컵경기장_S1_6.png" target="_blank">월드컵경기장 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0468.png" download="응암_S1_6.png" target="_blank">응암 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0255.png" download="불광_S1_6.png" target="_blank">불광 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0389.png" download="안암_S1_6.png" target="_blank">안암 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0161.png" download="동묘앞_S1_6.png" target="_blank">동묘앞 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0280.png" download="상월곡_S1_6.png" target="_blank">상월곡 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0591.png" download="합정_S1_6.png" target="_blank">합정 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0138.png" download="대흥_S1_6.png" target="_blank">대흥 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0397.png" download="약수_S1_6.png" target="_blank">약수 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_6_0479.png" download="이태원_S1_6.png" target="_blank">이태원 (S1_6)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0004.png" download="가산디지털단지_S1_7.png" target="_blank">가산디지털단지 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0568.png" download="태릉입구_S1_7.png" target="_blank">태릉입구 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0276.png" download="상봉_S1_7.png" target="_blank">상봉 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0334.png" download="수락산_S1_7.png" target="_blank">수락산 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0115.png" download="노원_S1_7.png" target="_blank">노원 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0048.png" download="고속터미널_S1_7.png" target="_blank">고속터미널 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0130.png" download="대림_S1_7.png" target="_blank">대림 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0581.png" download="하계_S1_7.png" target="_blank">하계 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0120.png" download="논현_S1_7.png" target="_blank">논현 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0408.png" download="어린이대공원_S1_7.png" target="_blank">어린이대공원 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0435.png" download="온수_S1_7.png" target="_blank">온수 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0064.png" download="광명사거리_S1_7.png" target="_blank">광명사거리 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_7_0176.png" download="자양_S1_7.png" target="_blank">자양 (S1_7)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_1366.png" download="남위례_S1_8.png" target="_blank">남위례 (S1_8)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_0003.png" download="가락시장_S1_8.png" target="_blank">가락시장 (S1_8)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_1373.png" download="암사역사공원_S1_8.png" target="_blank">암사역사공원 (S1_8)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_0201.png" download="모란_S1_8.png" target="_blank">모란 (S1_8)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_0497.png" download="잠실_S1_8.png" target="_blank">잠실 (S1_8)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_0111.png" download="남한산성입구_S1_8.png" target="_blank">남한산성입구 (S1_8)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_0204.png" download="몽촌토성_S1_8.png" target="_blank">몽촌토성 (S1_8)</a>
+  <a data-link="station" href="https://hc.kric.go.kr/hc/ext/images/visual/handicapped/cnv/S1/S1_8_0504.png" download="장지_S1_8.png" target="_blank">장지 (S1_8)</a>
+</body>
+</html>

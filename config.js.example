@@ -1,0 +1,3 @@
+// config.js.example 을 config.js 로 복사한 뒤, 아래에 API 키를 입력하세요.
+// 서울 열린데이터: http://data.seoul.go.kr
+window.SEOUL_API_KEY = '';
