@@ -223,17 +223,33 @@
             z-index: 2000;
             align-items: center;
             justify-content: center;
-            padding: 20px;
+            overflow: hidden;
         }
         .lightbox-overlay.show {
             display: flex;
         }
+        .lightbox-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            cursor: grab;
+            touch-action: none;
+        }
+        .lightbox-container.dragging {
+            cursor: grabbing;
+        }
         .lightbox-image {
-            max-width: 95%;
-            max-height: 95vh;
+            max-width: 90%;
+            max-height: 90vh;
             object-fit: contain;
             border-radius: 8px;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+            transition: transform 0.2s ease-out;
+            user-select: none;
+            -webkit-user-select: none;
         }
         .lightbox-close {
             position: absolute;
@@ -252,9 +268,56 @@
             justify-content: center;
             line-height: 1;
             transition: background 0.2s;
+            z-index: 10;
         }
         .lightbox-close:hover {
             background: rgba(14, 165, 233, 0.8);
+        }
+        
+        /* 확대/축소 컨트롤 */
+        .lightbox-controls {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 12px 16px;
+            border-radius: 30px;
+            z-index: 10;
+        }
+        .lightbox-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            font-weight: bold;
+        }
+        .lightbox-btn:hover {
+            background: rgba(14, 165, 233, 0.8);
+            border-color: #0ea5e9;
+        }
+        .lightbox-btn:active {
+            transform: scale(0.95);
+        }
+        .zoom-level {
+            color: #fff;
+            font-size: 14px;
+            min-width: 60px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
         }
         .detail-table {
             width: 100%;
@@ -274,6 +337,29 @@
         @media (max-width: 768px) {
             .accordion-body th { width: auto; }
             .detail-table th { width: 120px; }
+            
+            /* 모바일 lightbox 최적화 */
+            .lightbox-close {
+                top: 10px;
+                right: 10px;
+                width: 44px;
+                height: 44px;
+                font-size: 30px;
+            }
+            .lightbox-controls {
+                bottom: 20px;
+                padding: 10px 14px;
+                gap: 8px;
+            }
+            .lightbox-btn {
+                width: 36px;
+                height: 36px;
+                font-size: 18px;
+            }
+            .zoom-level {
+                min-width: 50px;
+                font-size: 13px;
+            }
         }
         /* ▼▼▼ 새로 추가할 SEO 콘텐츠 스타일 ▼▼▼ */
         .seo-content {
@@ -404,7 +490,16 @@
     <!-- 이미지 확대 lightbox -->
     <div id="lightbox" class="lightbox-overlay">
         <span class="lightbox-close" id="lightboxClose">&times;</span>
-        <img id="lightboxImg" class="lightbox-image" src="" alt="확대 이미지">
+        <div class="lightbox-container" id="lightboxContainer">
+            <img id="lightboxImg" class="lightbox-image" src="" alt="확대 이미지">
+        </div>
+        <div class="lightbox-controls">
+            <button class="lightbox-btn" id="zoomOut" title="축소">−</button>
+            <span class="zoom-level" id="zoomLevel">100%</span>
+            <button class="lightbox-btn" id="zoomIn" title="확대">+</button>
+            <button class="lightbox-btn" id="zoomReset" title="원본 크기">1:1</button>
+            <button class="lightbox-btn" id="zoomFit" title="화면 맞춤">⊡</button>
+        </div>
     </div>
 
     <script>
@@ -658,40 +753,179 @@
                 if (e.target === this) this.classList.remove('show');
             });
             
-            // 이미지 확대 기능
+            // 이미지 확대 기능 (Lightbox with Zoom & Pinch)
             const modalImg = document.getElementById('modalImg');
             const lightbox = document.getElementById('lightbox');
+            const lightboxContainer = document.getElementById('lightboxContainer');
             const lightboxImg = document.getElementById('lightboxImg');
             const lightboxClose = document.getElementById('lightboxClose');
+            const zoomLevel = document.getElementById('zoomLevel');
+            
+            let scale = 1;
+            let translateX = 0;
+            let translateY = 0;
+            let isDragging = false;
+            let startX = 0;
+            let startY = 0;
+            let lastDistance = 0;
+            
+            function updateTransform() {
+                lightboxImg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+                zoomLevel.textContent = Math.round(scale * 100) + '%';
+            }
+            
+            function resetTransform() {
+                scale = 1;
+                translateX = 0;
+                translateY = 0;
+                updateTransform();
+            }
+            
+            function closeLightbox() {
+                lightbox.classList.remove('show');
+                document.body.style.overflow = '';
+                resetTransform();
+            }
             
             // 이미지 클릭 시 확대
             modalImg.addEventListener('click', function() {
                 if (!this.classList.contains('missing') && this.style.display !== 'none') {
                     lightboxImg.src = this.src;
                     lightbox.classList.add('show');
-                    document.body.style.overflow = 'hidden'; // 스크롤 방지
+                    document.body.style.overflow = 'hidden';
+                    resetTransform();
                 }
             });
             
             // lightbox 닫기
-            lightboxClose.addEventListener('click', function() {
-                lightbox.classList.remove('show');
-                document.body.style.overflow = ''; // 스크롤 복원
-            });
+            lightboxClose.addEventListener('click', closeLightbox);
             
             // lightbox 배경 클릭 시 닫기
             lightbox.addEventListener('click', function(e) {
-                if (e.target === this) {
-                    this.classList.remove('show');
-                    document.body.style.overflow = '';
-                }
+                if (e.target === this) closeLightbox();
             });
             
             // ESC 키로 lightbox 닫기
             document.addEventListener('keydown', function(e) {
                 if (e.key === 'Escape' && lightbox.classList.contains('show')) {
-                    lightbox.classList.remove('show');
-                    document.body.style.overflow = '';
+                    closeLightbox();
+                }
+            });
+            
+            // 확대/축소 버튼
+            document.getElementById('zoomIn').addEventListener('click', function() {
+                scale = Math.min(scale + 0.25, 5);
+                updateTransform();
+            });
+            
+            document.getElementById('zoomOut').addEventListener('click', function() {
+                scale = Math.max(scale - 0.25, 0.5);
+                translateX = 0;
+                translateY = 0;
+                updateTransform();
+            });
+            
+            document.getElementById('zoomReset').addEventListener('click', function() {
+                scale = 1;
+                translateX = 0;
+                translateY = 0;
+                updateTransform();
+            });
+            
+            document.getElementById('zoomFit').addEventListener('click', function() {
+                resetTransform();
+            });
+            
+            // 마우스 휠로 확대/축소
+            lightboxContainer.addEventListener('wheel', function(e) {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? -0.1 : 0.1;
+                scale = Math.min(Math.max(scale + delta, 0.5), 5);
+                updateTransform();
+            }, { passive: false });
+            
+            // 드래그로 이미지 이동 (마우스)
+            lightboxContainer.addEventListener('mousedown', function(e) {
+                if (scale > 1) {
+                    isDragging = true;
+                    startX = e.clientX - translateX;
+                    startY = e.clientY - translateY;
+                    lightboxContainer.classList.add('dragging');
+                }
+            });
+            
+            document.addEventListener('mousemove', function(e) {
+                if (isDragging) {
+                    translateX = e.clientX - startX;
+                    translateY = e.clientY - startY;
+                    updateTransform();
+                }
+            });
+            
+            document.addEventListener('mouseup', function() {
+                isDragging = false;
+                lightboxContainer.classList.remove('dragging');
+            });
+            
+            // 터치 이벤트 (드래그 & 핀치 줌)
+            let touch1 = null;
+            let touch2 = null;
+            
+            lightboxContainer.addEventListener('touchstart', function(e) {
+                if (e.touches.length === 1) {
+                    // 단일 터치 - 드래그 시작
+                    touch1 = e.touches[0];
+                    if (scale > 1) {
+                        startX = touch1.clientX - translateX;
+                        startY = touch1.clientY - translateY;
+                    }
+                } else if (e.touches.length === 2) {
+                    // 두 손가락 터치 - 핀치 줌
+                    touch1 = e.touches[0];
+                    touch2 = e.touches[1];
+                    const dx = touch2.clientX - touch1.clientX;
+                    const dy = touch2.clientY - touch1.clientY;
+                    lastDistance = Math.sqrt(dx * dx + dy * dy);
+                }
+            });
+            
+            lightboxContainer.addEventListener('touchmove', function(e) {
+                e.preventDefault();
+                
+                if (e.touches.length === 1 && touch1) {
+                    // 드래그
+                    const touch = e.touches[0];
+                    if (scale > 1) {
+                        translateX = touch.clientX - startX;
+                        translateY = touch.clientY - startY;
+                        updateTransform();
+                    }
+                } else if (e.touches.length === 2 && touch1 && touch2) {
+                    // 핀치 줌
+                    const newTouch1 = e.touches[0];
+                    const newTouch2 = e.touches[1];
+                    const dx = newTouch2.clientX - newTouch1.clientX;
+                    const dy = newTouch2.clientY - newTouch1.clientY;
+                    const newDistance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (lastDistance > 0) {
+                        const delta = (newDistance - lastDistance) * 0.01;
+                        scale = Math.min(Math.max(scale + delta, 0.5), 5);
+                        updateTransform();
+                    }
+                    
+                    lastDistance = newDistance;
+                }
+            }, { passive: false });
+            
+            lightboxContainer.addEventListener('touchend', function(e) {
+                if (e.touches.length === 0) {
+                    touch1 = null;
+                    touch2 = null;
+                    lastDistance = 0;
+                } else if (e.touches.length === 1) {
+                    touch2 = null;
+                    lastDistance = 0;
                 }
             });
         }
