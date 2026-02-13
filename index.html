@@ -147,6 +147,35 @@
         }
         .loc-btn:hover { background: #38bdf8; color: #0f172a; }
 
+        /* Info-Zip 돌아가기 버튼 */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            background: #fff;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+        }
+        .back-btn:hover {
+            background: #f1f5f9;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+            transform: translateY(-2px);
+        }
+        .back-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+        .back-btn-container {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
         /* Modal */
         .modal-overlay {
             display: none;
@@ -360,6 +389,16 @@
                 min-width: 50px;
                 font-size: 13px;
             }
+            
+            /* 모바일 돌아가기 버튼 */
+            .back-btn {
+                font-size: 13px;
+                padding: 10px 20px;
+            }
+            .back-btn svg {
+                width: 18px;
+                height: 18px;
+            }
         }
         /* ▼▼▼ 새로 추가할 SEO 콘텐츠 스타일 ▼▼▼ */
         .seo-content {
@@ -402,6 +441,16 @@
 </head>
 <body>
     <div class="container">
+        <!-- Info-Zip 블로그 돌아가기 버튼 -->
+        <div class="back-btn-container">
+            <a href="https://info-zip.kr" class="back-btn" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                info-zip 블로그로 돌아가기
+            </a>
+        </div>
+        
         <div class="header">
             <h1>지하철 수유실 정보</h1>
             <p>역명을 클릭하거나 위치보기를 누르면 자세히 볼 수 있습니다.</p>
@@ -470,6 +519,16 @@
             </details>
         </article>
     </section>
+
+    <!-- 하단 Info-Zip 블로그 돌아가기 버튼 -->
+    <div class="back-btn-container" style="margin-top: 40px; margin-bottom: 20px;">
+        <a href="https://info-zip.kr" class="back-btn" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            info-zip 블로그로 돌아가기
+        </a>
+    </div>
 
     <div id="modal" class="modal-overlay">
         <div class="modal-box">
