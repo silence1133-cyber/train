@@ -202,8 +202,60 @@
             border-radius: 10px;
             margin-bottom: 20px;
             border: 1px solid #334155;
+            cursor: pointer;
+            transition: transform 0.2s;
         }
-        .modal-image.missing { min-height: 120px; background: #0f172a; display: flex; align-items: center; justify-content: center; color: #94a3b8; }
+        .modal-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+        }
+        .modal-image.missing { min-height: 120px; background: #0f172a; display: flex; align-items: center; justify-content: center; color: #94a3b8; cursor: default; }
+        
+        /* 이미지 확대 lightbox */
+        .lightbox-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .lightbox-overlay.show {
+            display: flex;
+        }
+        .lightbox-image {
+            max-width: 95%;
+            max-height: 95vh;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+            transition: background 0.2s;
+        }
+        .lightbox-close:hover {
+            background: rgba(14, 165, 233, 0.8);
+        }
         .detail-table {
             width: 100%;
             border-collapse: collapse;
@@ -347,6 +399,12 @@
                 <div id="modalDetail"></div>
             </div>
         </div>
+    </div>
+
+    <!-- 이미지 확대 lightbox -->
+    <div id="lightbox" class="lightbox-overlay">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img id="lightboxImg" class="lightbox-image" src="" alt="확대 이미지">
     </div>
 
     <script>
@@ -592,11 +650,49 @@
         }
 
         function init() {
+            // 모달 닫기
             document.getElementById('modalClose').addEventListener('click', function() {
                 document.getElementById('modal').classList.remove('show');
             });
             document.getElementById('modal').addEventListener('click', function(e) {
                 if (e.target === this) this.classList.remove('show');
+            });
+            
+            // 이미지 확대 기능
+            const modalImg = document.getElementById('modalImg');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightboxImg');
+            const lightboxClose = document.getElementById('lightboxClose');
+            
+            // 이미지 클릭 시 확대
+            modalImg.addEventListener('click', function() {
+                if (!this.classList.contains('missing') && this.style.display !== 'none') {
+                    lightboxImg.src = this.src;
+                    lightbox.classList.add('show');
+                    document.body.style.overflow = 'hidden'; // 스크롤 방지
+                }
+            });
+            
+            // lightbox 닫기
+            lightboxClose.addEventListener('click', function() {
+                lightbox.classList.remove('show');
+                document.body.style.overflow = ''; // 스크롤 복원
+            });
+            
+            // lightbox 배경 클릭 시 닫기
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === this) {
+                    this.classList.remove('show');
+                    document.body.style.overflow = '';
+                }
+            });
+            
+            // ESC 키로 lightbox 닫기
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && lightbox.classList.contains('show')) {
+                    lightbox.classList.remove('show');
+                    document.body.style.overflow = '';
+                }
             });
         }
 
